@@ -1,0 +1,1341 @@
+{
+  "schemaVersion": 4,
+  "version": 11,
+  "updatedAt": "2026-09-05",
+  "verifiedAt": "2026-09-05",
+  "jobs": [
+    {
+      "id": "lucrator-comercial",
+      "name": "Lucrător comercial",
+      "category": "Vânzări · retail",
+      "mono": "Vz",
+      "baseNet": 3400,
+      "photo": "job-lucrator-comercial"
+    },
+    {
+      "id": "sofer-profesionist",
+      "name": "Șofer profesionist",
+      "category": "Transport",
+      "mono": "Tr",
+      "baseNet": 4200,
+      "photo": "job-sofer-profesionist"
+    },
+    {
+      "id": "programator",
+      "name": "Programator",
+      "category": "IT & software",
+      "mono": "IT",
+      "baseNet": 9800,
+      "photo": "job-programator"
+    },
+    {
+      "id": "contabil",
+      "name": "Contabil",
+      "category": "Financiar",
+      "mono": "Fi",
+      "baseNet": 5200,
+      "photo": "job-contabil"
+    },
+    {
+      "id": "ospatar-barman",
+      "name": "Ospătar / barman",
+      "category": "HoReCa",
+      "mono": "Ho",
+      "baseNet": 3300,
+      "photo": "job-ospatar-barman"
+    },
+    {
+      "id": "muncitor-constructii",
+      "name": "Muncitor construcții",
+      "category": "Construcții",
+      "mono": "Co",
+      "baseNet": 4300,
+      "photo": "job-muncitor-constructii"
+    },
+    {
+      "id": "asistent-medical",
+      "name": "Asistent medical",
+      "category": "Sănătate",
+      "mono": "Sa",
+      "baseNet": 5600,
+      "photo": "job-asistent-medical"
+    },
+    {
+      "id": "profesor",
+      "name": "Profesor",
+      "category": "Educație",
+      "mono": "Ed",
+      "baseNet": 4800,
+      "photo": "job-profesor"
+    },
+    {
+      "id": "operator-productie",
+      "name": "Operator producție",
+      "category": "Industrie",
+      "mono": "In",
+      "baseNet": 3700,
+      "photo": "job-operator-productie"
+    },
+    {
+      "id": "curier",
+      "name": "Curier",
+      "category": "Logistică",
+      "mono": "Lo",
+      "baseNet": 3600,
+      "photo": "job-curier"
+    },
+    {
+      "id": "electrician",
+      "name": "Electrician",
+      "category": "Instalații",
+      "mono": "El",
+      "baseNet": 4600,
+      "photo": "job-electrician"
+    },
+    {
+      "id": "frizer-stilist",
+      "name": "Frizer / stilist",
+      "category": "Servicii",
+      "mono": "Se",
+      "baseNet": 3400,
+      "photo": "job-frizer-stilist"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-0",
+      "label": "Sub 1 an",
+      "sub": "abia am intrat",
+      "factor": 0.85,
+      "caption": "prima zi",
+      "photo": "exp-0"
+    },
+    {
+      "id": "exp-1",
+      "label": "1-3 ani",
+      "sub": "m-am prins cum merge",
+      "factor": 1,
+      "caption": "rutină",
+      "photo": "exp-1"
+    },
+    {
+      "id": "exp-2",
+      "label": "3-7 ani",
+      "sub": "știu meserie",
+      "factor": 1.18,
+      "caption": "meserie",
+      "photo": "exp-2"
+    },
+    {
+      "id": "exp-3",
+      "label": "Peste 7 ani",
+      "sub": "eu îi învăț pe alții",
+      "factor": 1.35,
+      "caption": "mentor",
+      "photo": "exp-3"
+    }
+  ],
+  "bonusTemplates": [
+    {
+      "id": "bonus-tichete-de-masa",
+      "label": "Tichete de masă",
+      "amount": 40,
+      "period": 1
+    },
+    {
+      "id": "bonus-bonus-de-performanta",
+      "label": "Bonus de performanță",
+      "amount": 300,
+      "period": 3
+    },
+    {
+      "id": "bonus-spor-de-weekend",
+      "label": "Spor de weekend",
+      "amount": 80,
+      "period": 2
+    },
+    {
+      "id": "bonus-bacsis",
+      "label": "Bacșiș",
+      "amount": 50,
+      "period": 1
+    },
+    {
+      "id": "bonus-al-13-lea-salariu",
+      "label": "Al 13-lea salariu",
+      "amount": 4000,
+      "period": 4
+    }
+  ],
+  "expenseTemplates": [
+    {
+      "id": "chelt-chirie-rata-locuinta",
+      "label": "Chirie / rată locuință",
+      "amount": 1800,
+      "period": 3
+    },
+    {
+      "id": "chelt-utilitati",
+      "label": "Utilități",
+      "amount": 450,
+      "period": 3
+    },
+    {
+      "id": "chelt-rate-credite",
+      "label": "Rate & credite",
+      "amount": 900,
+      "period": 3
+    },
+    {
+      "id": "chelt-abonamente",
+      "label": "Abonamente",
+      "amount": 120,
+      "period": 3
+    },
+    {
+      "id": "chelt-transport",
+      "label": "Transport",
+      "amount": 10,
+      "period": 1
+    }
+  ],
+  "situations": [
+    {
+      "id": "nu-mi-au-platit-salariul",
+      "title": "Nu mi-au plătit salariul",
+      "verdict": "no",
+      "verdictLabel": "NU AU VOIE",
+      "plain": "Salariul se plătește cel puțin o dată pe lună, la data din contract. Întârzierea repetată e motiv de plângere la ITM și poți cere daune.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 166",
+        "text": "Salariul se plătește în bani cel puțin o dată pe lună, la data stabilită în contractul individual de muncă, în contractul colectiv de muncă aplicabil sau în regulamentul intern, după caz.",
+        "verified": true
+      },
+      "steps": [
+        "Cere în scris data plății (e dovadă).",
+        "Notează fiecare zi de întârziere în jurnal.",
+        "Trimite somația de plată din trusă."
+      ],
+      "tool": {
+        "label": "Cere-ți banii în scris",
+        "target": "notificare"
+      },
+      "caption": "fluturaș de salariu",
+      "captionBig": "plic de salariu gol, pe masă",
+      "photo": "sit-0",
+      "photoBig": "sit-big-0",
+      "synonyms": [
+        "salariu neplatit",
+        "nu am primit banii",
+        "restanta",
+        "fluturas",
+        "plata",
+        "bani"
+      ],
+      "deadlineKindId": "salariu-neplatit"
+    },
+    {
+      "id": "vor-sa-ma-dea-afara-pe-loc",
+      "title": "Vor să mă dea afară pe loc",
+      "verdict": "depends",
+      "verdictLabel": "DEPINDE",
+      "plain": "Concedierea cere motiv real, notificare scrisă și preaviz de minim 20 de zile lucrătoare. „Pe loc” e legal doar la abateri grave, cu cercetare disciplinară.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 75",
+        "text": "Persoanele concediate în temeiul art. 61 lit. c) și d), al art. 65 și 66 beneficiază de dreptul la un preaviz ce nu poate fi mai mic de 20 de zile lucrătoare.",
+        "verified": true
+      },
+      "steps": [
+        "Nu semna nimic pe loc, ai dreptul să citești acasă.",
+        "Cere motivul concedierii în scris.",
+        "Verifică preavizul cu calculatorul din trusă."
+      ],
+      "tool": {
+        "label": "Scrie ce s-a întâmplat",
+        "target": "jurnal"
+      },
+      "caption": "birou, discuție",
+      "captionBig": "discuție tensionată în birou",
+      "photo": "sit-1",
+      "photoBig": "sit-big-1",
+      "synonyms": [
+        "concediere",
+        "dat afara",
+        "demis",
+        "preaviz",
+        "desfacere"
+      ],
+      "deadlineKindId": "contestatie-decizie"
+    },
+    {
+      "id": "ore-suplimentare-neplatite",
+      "title": "Ore suplimentare neplătite",
+      "verdict": "no",
+      "verdictLabel": "NU AU VOIE",
+      "plain": "Munca peste program se compensează cu ore libere în 90 de zile sau se plătește cu spor de minim 75%. „Așa e la noi” nu e temei legal.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 123",
+        "text": "În cazul în care compensarea prin ore libere plătite nu este posibilă în termenul prevăzut de art. 122 alin. (1) în luna următoare, munca suplimentară va fi plătită salariatului prin adăugarea unui spor la salariu corespunzător duratei acesteia. [...] Sporul pentru munca suplimentară, acordat în condițiile prevăzute la alin. (1), se stabilește prin negociere, în cadrul contractului colectiv de muncă sau, după caz, al contractului individual de muncă, și nu poate fi mai mic de 75% din salariul de bază.",
+        "verified": true
+      },
+      "steps": [
+        "Pornește contorul de ore din trusă, zi de zi.",
+        "Cere compensarea în scris, cu orele anexate.",
+        "Refuz? Jurnalul devine dosarul tău pentru ITM."
+      ],
+      "tool": {
+        "label": "Pornește contorul de ore",
+        "target": "ore"
+      },
+      "caption": "pontaj târziu",
+      "captionBig": "ceas de pontaj, tură de noapte",
+      "photo": "sit-2",
+      "photoBig": "sit-big-2",
+      "synonyms": [
+        "ore suplimentare",
+        "peste program",
+        "spor",
+        "overtime",
+        "pontaj"
+      ]
+    },
+    {
+      "id": "mi-au-refuzat-concediul",
+      "title": "Mi-au refuzat concediul",
+      "verdict": "depends",
+      "verdictLabel": "DEPINDE",
+      "plain": "Ai dreptul la minim 20 de zile lucrătoare pe an și nu se poate renunța la el. Angajatorul poate amâna perioada, dar nu la nesfârșit și nu integral.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 144-145",
+        "text": "Dreptul la concediu de odihnă anual plătit este garantat tuturor salariaților. Dreptul la concediu de odihnă anual nu poate forma obiectul vreunei cesiuni, renunțări sau limitări. [...] Durata minimă a concediului de odihnă anual este de 20 de zile lucrătoare.",
+        "verified": true
+      },
+      "steps": [
+        "Depune cererea în scris, păstrează o copie.",
+        "Cere motivul refuzului în scris.",
+        "Ține evidența zilelor rămase în trusă."
+      ],
+      "tool": {
+        "label": "Scrie cererea și refuzul",
+        "target": "jurnal"
+      },
+      "caption": "valiză, concediu",
+      "captionBig": "calendar cu zile de concediu",
+      "photo": "sit-3",
+      "photoBig": "sit-big-3",
+      "synonyms": [
+        "concediu",
+        "vacanta",
+        "zile libere",
+        "refuz"
+      ]
+    },
+    {
+      "id": "lucrez-fara-contract",
+      "title": "Lucrez fără contract",
+      "verdict": "no",
+      "verdictLabel": "ILEGAL",
+      "plain": "Contractul se semnează înainte de prima zi de muncă, iar tu primești un exemplar. „La negru” înseamnă zero vechime, zero pensie, zero protecție. Și amenzi mari pentru angajator.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 16",
+        "text": "Contractul individual de muncă se încheie în baza consimțământului părților, în formă scrisă, în limba română, cel târziu în ziua anterioară începerii activității de către salariat. Obligația de încheiere a contractului individual de muncă în formă scrisă revine angajatorului.",
+        "verified": true
+      },
+      "steps": [
+        "Cere contractul semnat înainte să începi.",
+        "Fă poze la orice pontaj sau mesaj de lucru.",
+        "Verifică-ți situația în Revisal (gratuit)."
+      ],
+      "tool": {
+        "label": "Verifică-ți contractul",
+        "target": "contract"
+      },
+      "caption": "mână fără acte",
+      "captionBig": "strângere de mână fără hârtii",
+      "photo": "sit-4",
+      "photoBig": "sit-big-4",
+      "synonyms": [
+        "la negru",
+        "fara contract",
+        "nedeclarat",
+        "munca nedeclarata"
+      ]
+    },
+    {
+      "id": "vreau-sa-demisionez",
+      "title": "Vreau să demisionez",
+      "verdict": "ok",
+      "verdictLabel": "AI DREPTUL",
+      "plain": "Demisia nu se aprobă, se notifică. Preavizul e de maxim 20 de zile lucrătoare (45 pentru funcții de conducere), apoi ești liber. Nimeni nu te poate ține.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 81",
+        "text": "Prin demisie se înțelege actul unilateral de voință a salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului individual de muncă, după împlinirea unui termen de preaviz.",
+        "verified": true
+      },
+      "steps": [
+        "Scrie demisia cu generatorul din trusă.",
+        "Depune-o cu număr de înregistrare sau email.",
+        "Numără zilele de preaviz, apoi gata."
+      ],
+      "tool": {
+        "label": "Generează demisia",
+        "target": "demisie"
+      },
+      "caption": "demisie pe birou",
+      "captionBig": "foaie de demisie și pix",
+      "photo": "sit-5",
+      "photoBig": "sit-big-5",
+      "synonyms": [
+        "demisie",
+        "plec",
+        "renunt",
+        "preaviz"
+      ],
+      "deadlineKindId": "preaviz-demisie"
+    }
+  ],
+  "code": [
+    {
+      "roman": "I",
+      "title": "Contractul de muncă",
+      "caption": "semnătură pe contract",
+      "photo": "cod-I",
+      "articles": [
+        {
+          "id": "art-16",
+          "nr": "Art. 16",
+          "title": "Forma scrisă, înainte de prima zi",
+          "original": "Contractul individual de muncă se încheie în baza consimțământului părților, în formă scrisă, în limba română, cel târziu în ziua anterioară începerii activității de către salariat. Obligația de încheiere a contractului individual de muncă în formă scrisă revine angajatorului.",
+          "plain": "Semnezi înainte să începi lucrul și primești exemplarul tău. Fără contract semnat, ești neprotejat.",
+          "caption": "semnătură pe contract",
+          "photo": "art-16",
+          "verified": true,
+          "synonyms": [
+            "contract scris",
+            "forma scrisa",
+            "semnat"
+          ]
+        },
+        {
+          "id": "art-17",
+          "nr": "Art. 17",
+          "title": "Ce trebuie să ți se spună la angajare",
+          "original": "Anterior încheierii sau modificării contractului individual de muncă, angajatorul are obligația de a informa persoana selectată în vederea angajării ori, după caz, salariatul, cu privire la clauzele esențiale pe care intenționează să le înscrie în contract sau să le modifice.",
+          "plain": "Salariul, programul, funcția, concediul: ți se spun toate înainte să semnezi, nu după.",
+          "caption": "discuție la angajare",
+          "photo": "art-17",
+          "verified": true,
+          "synonyms": [
+            "informare",
+            "ce mi se spune",
+            "clauze"
+          ]
+        },
+        {
+          "id": "art-39",
+          "nr": "Art. 39",
+          "title": "Drepturile tale de bază",
+          "original": "Salariatul are, în principal, următoarele drepturi: a) dreptul la salarizare pentru munca depusă; b) dreptul la repaus zilnic și săptămânal; c) dreptul la concediu de odihnă anual; d) dreptul la egalitate de șanse și de tratament; e) dreptul la demnitate în muncă; f) dreptul la securitate și sănătate în muncă; [...] j) dreptul la protecție în caz de concediere; [...]",
+          "plain": "Plată pentru toată munca, pauze, concediu, tratament egal și respect. Pachetul minim, garantat de lege.",
+          "caption": "muncă de zi cu zi",
+          "photo": "art-39",
+          "verified": true,
+          "synonyms": [
+            "drepturi",
+            "ce mi se cuvine"
+          ]
+        }
+      ]
+    },
+    {
+      "roman": "II",
+      "title": "Salarizarea",
+      "caption": "bani în mână",
+      "photo": "cod-II",
+      "articles": [
+        {
+          "id": "art-164",
+          "nr": "Art. 164",
+          "title": "Salariul minim garantat",
+          "original": "Salariul de bază minim brut pe țară garantat în plată, corespunzător programului normal de muncă, se stabilește anual prin hotărâre a Guvernului și se aplică de la data de 1 ianuarie a anului următor, cu actualizarea periodică o dată pe an, după consultarea confederațiilor sindicale și patronale reprezentative la nivel național.",
+          "plain": "Nimeni nu te poate plăti sub minimul pe economie. Orice înțelegere sub el e nulă.",
+          "caption": "bani în mână",
+          "photo": "art-164",
+          "verified": true,
+          "synonyms": [
+            "salariu minim",
+            "minim garantat",
+            "minimul"
+          ]
+        },
+        {
+          "id": "art-166",
+          "nr": "Art. 166",
+          "title": "Plata salariului, cel puțin lunar",
+          "original": "Salariul se plătește în bani cel puțin o dată pe lună, la data stabilită în contractul individual de muncă, în contractul colectiv de muncă aplicabil sau în regulamentul intern, după caz.",
+          "plain": "Ziua de salariu din contract e obligație, nu promisiune. Întârzierea repetată se atacă la ITM.",
+          "caption": "ziua de salariu",
+          "photo": "art-166",
+          "verified": true,
+          "synonyms": [
+            "plata salariului",
+            "cand primesc banii",
+            "data salariului"
+          ]
+        }
+      ]
+    },
+    {
+      "roman": "III",
+      "title": "Timpul de muncă",
+      "caption": "ceas de pontaj",
+      "photo": "cod-III",
+      "articles": [
+        {
+          "id": "art-112",
+          "nr": "Art. 112",
+          "title": "8 ore pe zi, 40 pe săptămână",
+          "original": "Pentru salariații angajați cu normă întreagă durata normală a timpului de muncă este de 8 ore pe zi și de 40 de ore pe săptămână.",
+          "plain": "Norma întreagă înseamnă 8 ore pe zi. Tot ce e peste se numește muncă suplimentară și se plătește separat.",
+          "caption": "ceas de pontaj",
+          "photo": "art-112",
+          "verified": true,
+          "synonyms": [
+            "8 ore",
+            "program normal",
+            "40 de ore"
+          ]
+        },
+        {
+          "id": "art-114",
+          "nr": "Art. 114",
+          "title": "Maxim 48 de ore, cu tot cu suplimentare",
+          "original": "Durata maximă legală a timpului de muncă nu poate depăși 48 de ore pe săptămână, inclusiv orele suplimentare.",
+          "plain": "Cu tot cu ore suplimentare, săptămâna nu poate sări de 48 de ore, calculată ca medie pe 4 luni.",
+          "caption": "tură lungă, seara",
+          "photo": "art-114",
+          "verified": true,
+          "synonyms": [
+            "48 de ore",
+            "maxim",
+            "plafon"
+          ]
+        },
+        {
+          "id": "art-123",
+          "nr": "Art. 123",
+          "title": "Sporul de 75% pentru ore suplimentare",
+          "original": "În cazul în care compensarea prin ore libere plătite nu este posibilă în termenul prevăzut de art. 122 alin. (1) în luna următoare, munca suplimentară va fi plătită salariatului prin adăugarea unui spor la salariu corespunzător duratei acesteia. [...] Sporul pentru munca suplimentară, acordat în condițiile prevăzute la alin. (1), se stabilește prin negociere, în cadrul contractului colectiv de muncă sau, după caz, al contractului individual de muncă, și nu poate fi mai mic de 75% din salariul de bază.",
+          "plain": "Orele în plus se compensează cu timp liber în 90 de zile sau se plătesc cu spor de minim 75%.",
+          "caption": "ore peste program",
+          "photo": "art-123",
+          "verified": true,
+          "synonyms": [
+            "spor 75",
+            "ore suplimentare",
+            "compensare"
+          ]
+        }
+      ]
+    },
+    {
+      "roman": "IV",
+      "title": "Concediile",
+      "caption": "zile libere",
+      "photo": "cod-IV",
+      "articles": [
+        {
+          "id": "art-144",
+          "nr": "Art. 144",
+          "title": "Concediul anual, garantat",
+          "original": "Dreptul la concediu de odihnă anual plătit este garantat tuturor salariaților. Dreptul la concediu de odihnă anual nu poate forma obiectul vreunei cesiuni, renunțări sau limitări.",
+          "plain": "Concediul e al tău prin lege. Nu poți renunța la el, nici dacă ai semna că vrei.",
+          "caption": "zi liberă, familie",
+          "photo": "art-144",
+          "verified": true,
+          "synonyms": [
+            "concediu anual",
+            "concediu de odihna"
+          ]
+        },
+        {
+          "id": "art-145",
+          "nr": "Art. 145",
+          "title": "Minim 20 de zile lucrătoare pe an",
+          "original": "Durata minimă a concediului de odihnă anual este de 20 de zile lucrătoare.",
+          "plain": "Cel puțin 20 de zile lucrătoare de concediu pe an. Contractul poate da mai mult, niciodată mai puțin.",
+          "caption": "calendar de concediu",
+          "photo": "art-145",
+          "verified": true,
+          "synonyms": [
+            "20 de zile",
+            "zile de concediu"
+          ]
+        }
+      ]
+    },
+    {
+      "roman": "V",
+      "title": "Încetarea contractului",
+      "caption": "ultima zi la job",
+      "photo": "cod-V",
+      "articles": [
+        {
+          "id": "art-75",
+          "nr": "Art. 75",
+          "title": "Preavizul la concediere",
+          "original": "Persoanele concediate în temeiul art. 61 lit. c) și d), al art. 65 și 66 beneficiază de dreptul la un preaviz ce nu poate fi mai mic de 20 de zile lucrătoare.",
+          "plain": "La concediere ai dreptul la minim 20 de zile lucrătoare de preaviz, timp în care ești plătit normal.",
+          "caption": "preaviz, ultima zi",
+          "photo": "art-75",
+          "verified": true,
+          "synonyms": [
+            "preaviz",
+            "concediere",
+            "termen"
+          ]
+        },
+        {
+          "id": "art-81",
+          "nr": "Art. 81",
+          "title": "Demisia",
+          "original": "Prin demisie se înțelege actul unilateral de voință a salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului individual de muncă, după împlinirea unui termen de preaviz.",
+          "plain": "Demisia se anunță, nu se aprobă. Faci preavizul (maxim 20 de zile lucrătoare, 45 la conducere) și ești liber.",
+          "caption": "demisie pe birou",
+          "photo": "art-81",
+          "verified": true,
+          "synonyms": [
+            "demisie",
+            "preaviz",
+            "plec de la munca"
+          ]
+        }
+      ]
+    },
+    {
+      "roman": "VI",
+      "title": "Sancțiuni pentru angajator",
+      "caption": "control ITM",
+      "photo": "cod-VI",
+      "articles": [
+        {
+          "id": "art-260",
+          "nr": "Art. 260",
+          "title": "Amenzi pentru munca la negru",
+          "original": "Următoarele fapte constituie contravenții, dacă nu au fost săvârșite în astfel de condiții încât să fie considerate, potrivit legii, infracțiuni: [...]",
+          "plain": "Pentru fiecare om ținut la negru, angajatorul riscă amendă de 20.000 de lei. Tu nu ești cel amendat.",
+          "caption": "inspector ITM în control",
+          "photo": "art-260",
+          "verified": true,
+          "synonyms": [
+            "amenda",
+            "munca la negru",
+            "sanctiune",
+            "itm"
+          ]
+        }
+      ]
+    }
+  ],
+  "contractCheck": [
+    {
+      "id": "ck-0",
+      "label": "Salariul brut, scris negru pe alb"
+    },
+    {
+      "id": "ck-1",
+      "label": "Norma de muncă (ore pe zi / săptămână)"
+    },
+    {
+      "id": "ck-2",
+      "label": "Durata concediului anual"
+    },
+    {
+      "id": "ck-3",
+      "label": "Perioada de preaviz"
+    },
+    {
+      "id": "ck-4",
+      "label": "Fișa postului, anexată"
+    },
+    {
+      "id": "ck-5",
+      "label": "Data începerii activității"
+    },
+    {
+      "id": "ck-6",
+      "label": "Locul muncii, precizat clar"
+    },
+    {
+      "id": "ck-7",
+      "label": "Un exemplar semnat rămâne la tine"
+    }
+  ],
+  "tools": [
+    {
+      "id": "decodor-de-oferta",
+      "title": "Decodor de ofertă",
+      "subtitle": "netul real din brutul anunțului",
+      "caption": "anunț de job",
+      "target": "oferta",
+      "enabled": true,
+      "photo": "tool-0"
+    },
+    {
+      "id": "verifica-contractul",
+      "title": "Verifică contractul",
+      "subtitle": "8 puncte esențiale",
+      "caption": "contract pe masă",
+      "target": "contract",
+      "enabled": true,
+      "photo": "tool-1"
+    },
+    {
+      "id": "calculator-net-brut",
+      "title": "Calculator net / brut",
+      "subtitle": "odometrul de salariu",
+      "caption": "bani în mână",
+      "target": "net",
+      "enabled": true,
+      "photo": "tool-2"
+    },
+    {
+      "id": "generator-demisie",
+      "title": "Generator demisie",
+      "subtitle": "cererea, și data ultimei zile",
+      "caption": "ușa pe care o închizi tu",
+      "target": "demisie",
+      "enabled": true,
+      "photo": "tool-3"
+    },
+    {
+      "id": "contor-ore-suplimentare",
+      "title": "Contor ore suplimentare",
+      "subtitle": "cât ai stat peste program",
+      "caption": "ceasul de pontaj, la ieșire",
+      "target": "ore",
+      "enabled": true,
+      "photo": "tool-4"
+    },
+    {
+      "id": "somatie-de-plata",
+      "title": "Notificare de plată",
+      "subtitle": "cererea scrisă pentru banii neplătiți",
+      "caption": "cererea ta, pusă pe hârtie",
+      "target": "notificare",
+      "enabled": true,
+      "photo": "tool-5"
+    }
+  ],
+  "calcSteps": [
+    "Aplicăm grila de taxe 2026",
+    "Așezăm bonusurile în pachet",
+    "Căutăm poziția ta în piață",
+    "Ștampilăm carnetul"
+  ],
+  "rates": {
+    "basis": "Cote verificate în Codul fiscal, valabile la 1 iulie 2026.",
+    "basisDate": "2026-07-01",
+    "values": {
+      "cas": 0.25,
+      "cass": 0.1,
+      "impozit": 0.1,
+      "cam": 0.0225
+    },
+    "cpiBasis": "",
+    "cpi": {},
+    "deducere": [
+      {
+        "grossFrom": 0,
+        "grossTo": 4326,
+        "byDependants": [
+          865,
+          1081,
+          1297,
+          1514,
+          1946
+        ]
+      },
+      {
+        "grossFrom": 4326,
+        "grossTo": 4376,
+        "byDependants": [
+          843,
+          1060,
+          1276,
+          1492,
+          1925
+        ]
+      },
+      {
+        "grossFrom": 4376,
+        "grossTo": 4426,
+        "byDependants": [
+          822,
+          1038,
+          1254,
+          1470,
+          1903
+        ]
+      },
+      {
+        "grossFrom": 4426,
+        "grossTo": 4476,
+        "byDependants": [
+          800,
+          1016,
+          1233,
+          1449,
+          1881
+        ]
+      },
+      {
+        "grossFrom": 4476,
+        "grossTo": 4526,
+        "byDependants": [
+          778,
+          995,
+          1211,
+          1427,
+          1860
+        ]
+      },
+      {
+        "grossFrom": 4526,
+        "grossTo": 4576,
+        "byDependants": [
+          757,
+          973,
+          1189,
+          1406,
+          1838
+        ]
+      },
+      {
+        "grossFrom": 4576,
+        "grossTo": 4626,
+        "byDependants": [
+          735,
+          951,
+          1168,
+          1384,
+          1816
+        ]
+      },
+      {
+        "grossFrom": 4626,
+        "grossTo": 4676,
+        "byDependants": [
+          714,
+          930,
+          1146,
+          1362,
+          1795
+        ]
+      },
+      {
+        "grossFrom": 4676,
+        "grossTo": 4726,
+        "byDependants": [
+          692,
+          908,
+          1124,
+          1341,
+          1773
+        ]
+      },
+      {
+        "grossFrom": 4726,
+        "grossTo": 4776,
+        "byDependants": [
+          670,
+          887,
+          1103,
+          1319,
+          1752
+        ]
+      },
+      {
+        "grossFrom": 4776,
+        "grossTo": 4826,
+        "byDependants": [
+          649,
+          865,
+          1081,
+          1297,
+          1730
+        ]
+      },
+      {
+        "grossFrom": 4826,
+        "grossTo": 4876,
+        "byDependants": [
+          627,
+          843,
+          1060,
+          1276,
+          1708
+        ]
+      },
+      {
+        "grossFrom": 4876,
+        "grossTo": 4926,
+        "byDependants": [
+          606,
+          822,
+          1038,
+          1254,
+          1687
+        ]
+      },
+      {
+        "grossFrom": 4926,
+        "grossTo": 4976,
+        "byDependants": [
+          584,
+          800,
+          1016,
+          1233,
+          1665
+        ]
+      },
+      {
+        "grossFrom": 4976,
+        "grossTo": 5026,
+        "byDependants": [
+          562,
+          778,
+          995,
+          1211,
+          1643
+        ]
+      },
+      {
+        "grossFrom": 5026,
+        "grossTo": 5076,
+        "byDependants": [
+          541,
+          757,
+          973,
+          1189,
+          1622
+        ]
+      },
+      {
+        "grossFrom": 5076,
+        "grossTo": 5126,
+        "byDependants": [
+          519,
+          735,
+          951,
+          1168,
+          1600
+        ]
+      },
+      {
+        "grossFrom": 5126,
+        "grossTo": 5176,
+        "byDependants": [
+          497,
+          714,
+          930,
+          1146,
+          1579
+        ]
+      },
+      {
+        "grossFrom": 5176,
+        "grossTo": 5226,
+        "byDependants": [
+          476,
+          692,
+          908,
+          1124,
+          1557
+        ]
+      },
+      {
+        "grossFrom": 5226,
+        "grossTo": 5276,
+        "byDependants": [
+          454,
+          670,
+          887,
+          1103,
+          1535
+        ]
+      },
+      {
+        "grossFrom": 5276,
+        "grossTo": 5326,
+        "byDependants": [
+          432,
+          649,
+          865,
+          1081,
+          1514
+        ]
+      },
+      {
+        "grossFrom": 5326,
+        "grossTo": 5376,
+        "byDependants": [
+          411,
+          627,
+          843,
+          1060,
+          1492
+        ]
+      },
+      {
+        "grossFrom": 5376,
+        "grossTo": 5426,
+        "byDependants": [
+          389,
+          606,
+          822,
+          1038,
+          1470
+        ]
+      },
+      {
+        "grossFrom": 5426,
+        "grossTo": 5476,
+        "byDependants": [
+          368,
+          584,
+          800,
+          1016,
+          1449
+        ]
+      },
+      {
+        "grossFrom": 5476,
+        "grossTo": 5526,
+        "byDependants": [
+          346,
+          562,
+          778,
+          995,
+          1427
+        ]
+      },
+      {
+        "grossFrom": 5526,
+        "grossTo": 5576,
+        "byDependants": [
+          324,
+          541,
+          757,
+          973,
+          1406
+        ]
+      },
+      {
+        "grossFrom": 5576,
+        "grossTo": 5626,
+        "byDependants": [
+          303,
+          519,
+          735,
+          951,
+          1384
+        ]
+      },
+      {
+        "grossFrom": 5626,
+        "grossTo": 5676,
+        "byDependants": [
+          281,
+          497,
+          714,
+          930,
+          1362
+        ]
+      },
+      {
+        "grossFrom": 5676,
+        "grossTo": 5726,
+        "byDependants": [
+          259,
+          476,
+          692,
+          908,
+          1341
+        ]
+      },
+      {
+        "grossFrom": 5726,
+        "grossTo": 5776,
+        "byDependants": [
+          238,
+          454,
+          670,
+          887,
+          1319
+        ]
+      },
+      {
+        "grossFrom": 5776,
+        "grossTo": 5826,
+        "byDependants": [
+          216,
+          432,
+          649,
+          865,
+          1297
+        ]
+      },
+      {
+        "grossFrom": 5826,
+        "grossTo": 5876,
+        "byDependants": [
+          195,
+          411,
+          627,
+          843,
+          1276
+        ]
+      },
+      {
+        "grossFrom": 5876,
+        "grossTo": 5926,
+        "byDependants": [
+          173,
+          389,
+          606,
+          822,
+          1254
+        ]
+      },
+      {
+        "grossFrom": 5926,
+        "grossTo": 5976,
+        "byDependants": [
+          151,
+          368,
+          584,
+          800,
+          1233
+        ]
+      },
+      {
+        "grossFrom": 5976,
+        "grossTo": 6026,
+        "byDependants": [
+          130,
+          346,
+          562,
+          778,
+          1211
+        ]
+      },
+      {
+        "grossFrom": 6026,
+        "grossTo": 6076,
+        "byDependants": [
+          108,
+          324,
+          541,
+          757,
+          1189
+        ]
+      },
+      {
+        "grossFrom": 6076,
+        "grossTo": 6126,
+        "byDependants": [
+          86,
+          303,
+          519,
+          735,
+          1168
+        ]
+      },
+      {
+        "grossFrom": 6126,
+        "grossTo": 6176,
+        "byDependants": [
+          65,
+          281,
+          497,
+          714,
+          1146
+        ]
+      },
+      {
+        "grossFrom": 6176,
+        "grossTo": 6226,
+        "byDependants": [
+          43,
+          259,
+          476,
+          692,
+          1124
+        ]
+      },
+      {
+        "grossFrom": 6226,
+        "grossTo": 6276,
+        "byDependants": [
+          22,
+          238,
+          454,
+          670,
+          1103
+        ]
+      },
+      {
+        "grossFrom": 6276,
+        "grossTo": 6326,
+        "byDependants": [
+          0,
+          216,
+          432,
+          649,
+          1081
+        ]
+      }
+    ],
+    "salariuMinim": 4325,
+    "deducereBasis": "Deducerea de bază, art. 77 Codul fiscal, la salariul minim stabilit prin HG 146/2026."
+  },
+  "texts": {
+    "independenta": "Aplicație independentă. Nu este afiliată ITM, ANAF sau altei instituții publice.",
+    "contact": "andreialgebo@gmail.com"
+  },
+  "documents": {
+    "demisie-preaviz": {
+      "title": "CERERE DE DEMISIE",
+      "paragraphs": [
+        "Subsemnatul {numeComplet}, angajat în funcția de {functie} la {angajator}, îmi exprim prin prezenta voința de a înceta contractul individual de muncă, prin demisie.",
+        "Cererea se întemeiază pe art. 81 din Legea nr. 53/2003 - Codul muncii, care recunoaște salariatului dreptul de a denunța unilateral contractul individual de muncă, fără obligația de a motiva demisia.",
+        "Prezenta cerere este depusă la data de {dataDepunerii}. Respect un preaviz de {preaviz}, astfel încât ultima zi de muncă este {ultimaZi}.",
+        "Solicit ca, la încetarea contractului, să îmi fie eliberate documentele care atestă activitatea desfășurată și adeverința privind vechimea în muncă."
+      ]
+    },
+    "demisie-fara-preaviz": {
+      "title": "CERERE DE DEMISIE",
+      "paragraphs": [
+        "Subsemnatul {numeComplet}, angajat în funcția de {functie} la {angajator}, îmi exprim prin prezenta voința de a înceta contractul individual de muncă, prin demisie.",
+        "Demisia se produce fără preaviz, în temeiul art. 81 alin. (8) din Legea nr. 53/2003 - Codul muncii, care prevede că salariatul poate demisiona fără preaviz atunci când angajatorul nu își îndeplinește obligațiile asumate prin contractul individual de muncă.",
+        "Prezenta cerere este depusă la data de {dataDepunerii}, care este și ultima zi de muncă.",
+        "Solicit ca, la încetarea contractului, să îmi fie eliberate documentele care atestă activitatea desfășurată și adeverința privind vechimea în muncă."
+      ]
+    },
+    "notificare-plata": {
+      "title": "NOTIFICARE DE PLATĂ",
+      "paragraphs": [
+        "Subsemnatul {numeComplet}, angajat în funcția de {functie} la {angajator}, aduc la cunoștința angajatorului că salariul cuvenit pentru {luni} nu a fost plătit.",
+        "Suma restantă, potrivit evidenței mele, este de {suma} lei.",
+        "Potrivit art. 166 din Legea nr. 53/2003 - Codul muncii, salariul se plătește cel puțin o dată pe lună, la data stabilită în contractul individual de muncă.",
+        "Solicit plata sumei restante în termen de {termen}, adică până la data de {dataTermen}.",
+        "Prezenta notificare este întocmită la data de {dataCererii} și se comunică în scris, ca să rămână dovada cererii mele."
+      ]
+    },
+    "somatie-plata": {
+      "title": "SOMAȚIE DE PLATĂ",
+      "paragraphs": [
+        "Subsemnatul {numeComplet}, angajat în funcția de {functie} la {angajator}, revin asupra cererii de plată a salariului cuvenit pentru {luni}, care nu a fost achitat.",
+        "Suma restantă, potrivit evidenței mele, este de {suma} lei.",
+        "Am solicitat plata în scris la data de {dataPrimeiCereri}. Până la data prezentei somații nu am primit nici plata, nici un răspuns.",
+        "Potrivit art. 166 din Legea nr. 53/2003 - Codul muncii, salariul se plătește cel puțin o dată pe lună, la data stabilită în contractul individual de muncă.",
+        "Somez plata sumei restante în termen de {termen}, adică până la data de {dataTermen}.",
+        "Prezenta somație este întocmită la data de {dataCererii}."
+      ]
+    }
+  },
+  "journalTags": [
+    {
+      "id": "program",
+      "label": "program"
+    },
+    {
+      "id": "plata",
+      "label": "plată"
+    },
+    {
+      "id": "ore",
+      "label": "ore"
+    },
+    {
+      "id": "sef",
+      "label": "șef"
+    },
+    {
+      "id": "concediu",
+      "label": "concediu"
+    },
+    {
+      "id": "acte",
+      "label": "acte"
+    }
+  ],
+  "deadlineKinds": [
+    {
+      "id": "contestatie-decizie",
+      "question": "Am primit o decizie de concediere",
+      "dateQuestion": "Când ai primit hârtia în mână?",
+      "title": "Contestă concedierea",
+      "days": 45,
+      "unit": "calendar",
+      "basis": "art. 268 alin. (1) lit. a) Codul muncii",
+      "certainty": "settled",
+      "disputeNote": "",
+      "situationId": "vor-sa-ma-dea-afara-pe-loc"
+    },
+    {
+      "id": "sanctiune-disciplinara",
+      "question": "Am primit o sancțiune disciplinară",
+      "dateQuestion": "Când ți s-a comunicat decizia?",
+      "title": "Contestă sancțiunea",
+      "days": 30,
+      "unit": "calendar",
+      "basis": "art. 268 alin. (1) lit. b) Codul muncii",
+      "certainty": "settled",
+      "disputeNote": "",
+      "situationId": ""
+    },
+    {
+      "id": "salariu-neplatit",
+      "question": "Nu mi-au plătit salariul",
+      "dateQuestion": "Când trebuia să intre banii?",
+      "title": "Cere salariul neplătit",
+      "days": 1095,
+      "unit": "calendar",
+      "basis": "art. 268 alin. (1) lit. c) Codul muncii",
+      "certainty": "settled",
+      "disputeNote": "",
+      "situationId": "nu-mi-au-platit-salariul"
+    },
+    {
+      "id": "preaviz-demisie",
+      "question": "Am depus demisia",
+      "dateQuestion": "Când ai depus cererea?",
+      "title": "Ultima zi de muncă",
+      "days": 20,
+      "unit": "working",
+      "basis": "art. 81 Codul muncii",
+      "certainty": "settled",
+      "disputeNote": "",
+      "situationId": "vreau-sa-demisionez"
+    },
+    {
+      "id": "termen-propriu",
+      "question": "Altceva, cu o dată",
+      "dateQuestion": "Ce s-a întâmplat la muncă?",
+      "title": "Termenul tău",
+      "days": 30,
+      "unit": "calendar",
+      "basis": "termen pus de tine",
+      "certainty": "settled",
+      "disputeNote": "",
+      "situationId": ""
+    }
+  ],
+  "lawSource": {
+    "url": "https://legislatie.just.ro/Public/DetaliiDocument/128647",
+    "retrieved": "2026-09-05",
+    "note": "CODUL MUNCII (R), forma consolidată"
+  }
+}
