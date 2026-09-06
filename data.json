@@ -1,7 +1,7 @@
 {
   "schemaVersion": 4,
-  "version": 11,
-  "updatedAt": "2026-09-05",
+  "version": 12,
+  "updatedAt": "2026-09-07",
   "verifiedAt": "2026-09-05",
   "jobs": [
     {
@@ -214,14 +214,14 @@
       "steps": [
         "Cere în scris data plății (e dovadă).",
         "Notează fiecare zi de întârziere în jurnal.",
-        "Trimite somația de plată din trusă."
+        "Trimite somația de plată, cu dată pe ea."
       ],
       "tool": {
         "label": "Cere-ți banii în scris",
         "target": "notificare"
       },
       "caption": "fluturaș de salariu",
-      "captionBig": "plic de salariu gol, pe masă",
+      "captionBig": "hârtie veche cu sume de plată",
       "photo": "sit-0",
       "photoBig": "sit-big-0",
       "synonyms": [
@@ -248,14 +248,14 @@
       "steps": [
         "Nu semna nimic pe loc, ai dreptul să citești acasă.",
         "Cere motivul concedierii în scris.",
-        "Verifică preavizul cu calculatorul din trusă."
+        "Verifică preavizul cu calculatorul."
       ],
       "tool": {
         "label": "Scrie ce s-a întâmplat",
         "target": "jurnal"
       },
       "caption": "birou, discuție",
-      "captionBig": "discuție tensionată în birou",
+      "captionBig": "birou gol, masă și scaune",
       "photo": "sit-1",
       "photoBig": "sit-big-1",
       "synonyms": [
@@ -279,7 +279,7 @@
         "verified": true
       },
       "steps": [
-        "Pornește contorul de ore din trusă, zi de zi.",
+        "Pornește contorul de ore și notează zi de zi.",
         "Cere compensarea în scris, cu orele anexate.",
         "Refuz? Jurnalul devine dosarul tău pentru ITM."
       ],
@@ -288,7 +288,7 @@
         "target": "ore"
       },
       "caption": "pontaj târziu",
-      "captionBig": "ceas de pontaj, tură de noapte",
+      "captionBig": "ceas de pontaj și fișe",
       "photo": "sit-2",
       "photoBig": "sit-big-2",
       "synonyms": [
@@ -313,14 +313,14 @@
       "steps": [
         "Depune cererea în scris, păstrează o copie.",
         "Cere motivul refuzului în scris.",
-        "Ține evidența zilelor rămase în trusă."
+        "Ține evidența zilelor rămase."
       ],
       "tool": {
         "label": "Scrie cererea și refuzul",
         "target": "jurnal"
       },
       "caption": "valiză, concediu",
-      "captionBig": "calendar cu zile de concediu",
+      "captionBig": "valiză încuiată cu lacăt",
       "photo": "sit-3",
       "photoBig": "sit-big-3",
       "synonyms": [
@@ -351,7 +351,7 @@
         "target": "contract"
       },
       "caption": "mână fără acte",
-      "captionBig": "strângere de mână fără hârtii",
+      "captionBig": "strângere de mână, desen",
       "photo": "sit-4",
       "photoBig": "sit-big-4",
       "synonyms": [
@@ -366,14 +366,14 @@
       "title": "Vreau să demisionez",
       "verdict": "ok",
       "verdictLabel": "AI DREPTUL",
-      "plain": "Demisia nu se aprobă, se notifică. Preavizul e de maxim 20 de zile lucrătoare (45 pentru funcții de conducere), apoi ești liber. Nimeni nu te poate ține.",
+      "plain": "Îi anunți angajatorului că pleci și nu ai nevoie de acordul lui. Preavizul e de maxim 20 de zile lucrătoare (45 pentru funcții de conducere), apoi ești liber.",
       "law": {
         "ref": "CODUL MUNCII · ART. 81",
         "text": "Prin demisie se înțelege actul unilateral de voință a salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului individual de muncă, după împlinirea unui termen de preaviz.",
         "verified": true
       },
       "steps": [
-        "Scrie demisia cu generatorul din trusă.",
+        "Scrie demisia cu generatorul de cereri.",
         "Depune-o cu număr de înregistrare sau email.",
         "Numără zilele de preaviz, apoi gata."
       ],
@@ -382,7 +382,7 @@
         "target": "demisie"
       },
       "caption": "demisie pe birou",
-      "captionBig": "foaie de demisie și pix",
+      "captionBig": "caiet deschis și pix",
       "photo": "sit-5",
       "photoBig": "sit-big-5",
       "synonyms": [
@@ -458,7 +458,7 @@
           "nr": "Art. 164",
           "title": "Salariul minim garantat",
           "original": "Salariul de bază minim brut pe țară garantat în plată, corespunzător programului normal de muncă, se stabilește anual prin hotărâre a Guvernului și se aplică de la data de 1 ianuarie a anului următor, cu actualizarea periodică o dată pe an, după consultarea confederațiilor sindicale și patronale reprezentative la nivel național.",
-          "plain": "Nimeni nu te poate plăti sub minimul pe economie. Orice înțelegere sub el e nulă.",
+          "plain": "Nimeni nu te poate plăti sub minimul pe economie. O înțelegere sub el poate fi lovită de nulitate.",
           "caption": "bani în mână",
           "photo": "art-164",
           "verified": true,
@@ -623,7 +623,7 @@
           "nr": "Art. 260",
           "title": "Amenzi pentru munca la negru",
           "original": "Următoarele fapte constituie contravenții, dacă nu au fost săvârșite în astfel de condiții încât să fie considerate, potrivit legii, infracțiuni: [...]",
-          "plain": "Pentru fiecare om ținut la negru, angajatorul riscă amendă de 20.000 de lei. Tu nu ești cel amendat.",
+          "plain": "Textul oficial sancționează angajatorul care primește pe cineva la muncă fără contract, iar amenda se socotește pentru fiecare persoană găsită așa.",
           "caption": "inspector ITM în control",
           "photo": "art-260",
           "verified": true,
@@ -679,7 +679,7 @@
       "caption": "anunț de job",
       "target": "oferta",
       "enabled": true,
-      "photo": "tool-0"
+      "photo": ""
     },
     {
       "id": "verifica-contractul",
@@ -688,7 +688,7 @@
       "caption": "contract pe masă",
       "target": "contract",
       "enabled": true,
-      "photo": "tool-1"
+      "photo": ""
     },
     {
       "id": "calculator-net-brut",
@@ -697,7 +697,7 @@
       "caption": "bani în mână",
       "target": "net",
       "enabled": true,
-      "photo": "tool-2"
+      "photo": ""
     },
     {
       "id": "generator-demisie",
@@ -706,7 +706,7 @@
       "caption": "ușa pe care o închizi tu",
       "target": "demisie",
       "enabled": true,
-      "photo": "tool-3"
+      "photo": ""
     },
     {
       "id": "contor-ore-suplimentare",
@@ -715,7 +715,7 @@
       "caption": "ceasul de pontaj, la ieșire",
       "target": "ore",
       "enabled": true,
-      "photo": "tool-4"
+      "photo": ""
     },
     {
       "id": "somatie-de-plata",
@@ -724,7 +724,7 @@
       "caption": "cererea ta, pusă pe hârtie",
       "target": "notificare",
       "enabled": true,
-      "photo": "tool-5"
+      "photo": ""
     }
   ],
   "calcSteps": [
