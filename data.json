@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "version": 12,
+  "version": 13,
   "updatedAt": "2026-09-07",
   "verifiedAt": "2026-09-05",
   "jobs": [
@@ -392,6 +392,296 @@
         "preaviz"
       ],
       "deadlineKindId": "preaviz-demisie"
+    },
+    {
+      "id": "am-primit-sanctiune-disciplinara",
+      "title": "Am primit o sancțiune disciplinară",
+      "verdict": "depends",
+      "verdictLabel": "DEPINDE",
+      "plain": "Orice sancțiune mai grea decât un avertisment scris trebuie precedată de o cercetare disciplinară la care te poți apăra. Decizia îți vine pe hârtie, cu semnătură de primire, și o poți contesta în instanță în 30 de zile de la primire.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 251-252",
+        "text": "Sub sancțiunea nulității absolute, nicio măsură, cu excepția celei prevăzute la art. 248 alin. (1) lit. a), nu poate fi dispusă mai înainte de efectuarea unei cercetări disciplinare prealabile. [...] Decizia de sancționare se comunică salariatului în cel mult 5 zile calendaristice de la data emiterii și produce efecte de la data comunicării. [...] Decizia de sancționare poate fi contestată de salariat la instanțele judecătorești competente în termen de 30 de zile calendaristice de la data comunicării.",
+        "verified": true
+      },
+      "steps": [
+        "Nu semna pe loc: ai dreptul să citești decizia acasă.",
+        "Mergi la cercetare cu apărările tale scrise; ai dreptul să le susții.",
+        "Scrie în jurnal ce s-a spus, în ziua în care s-a spus."
+      ],
+      "tool": {
+        "label": "Scrie ce s-a întâmplat",
+        "target": "jurnal"
+      },
+      "caption": "peniță de stilou",
+      "captionBig": "peniță de stilou pe hârtie, de aproape",
+      "photo": "sit-big-6",
+      "photoBig": "sit-big-6",
+      "synonyms": [
+        "sanctiune",
+        "sanctiune disciplinara",
+        "avertisment",
+        "abatere",
+        "cercetare disciplinara",
+        "retrogradare",
+        "mustrare",
+        "pedepsit",
+        "desfacere disciplinara"
+      ],
+      "deadlineKindId": "sanctiune-disciplinara"
+    },
+    {
+      "id": "mi-au-oprit-bani-din-salariu",
+      "title": "Mi-au oprit bani din salariu",
+      "verdict": "no",
+      "verdictLabel": "NU AU VOIE",
+      "plain": "Pentru o pagubă, angajatorul poate opri bani din salariu doar cu o hotărâre judecătorească definitivă. Toate reținerile la un loc nu pot trece de jumătate din netul tău într-o lună.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 169",
+        "text": "Nicio reținere din salariu nu poate fi operată, în afara cazurilor și condițiilor prevăzute de lege. Reținerile cu titlu de daune cauzate angajatorului nu pot fi efectuate decât dacă datoria salariatului este scadentă, lichidă și exigibilă și a fost constatată ca atare printr-o hotărâre judecătorească definitivă și irevocabilă. [...] Reținerile din salariu cumulate nu pot depăși în fiecare lună jumătate din salariul net.",
+        "verified": true
+      },
+      "steps": [
+        "Cere în scris pe ce temei s-au oprit banii și cât.",
+        "Păstrează fluturașii și extrasele în care se vede diferența.",
+        "Trimite cererea de plată pentru suma oprită, cu dată pe ea."
+      ],
+      "tool": {
+        "label": "Cere-ți banii în scris",
+        "target": "notificare"
+      },
+      "caption": "monede, frescă antică",
+      "captionBig": "frescă antică cu grămezi de monede, un sac și tăblițe de scris",
+      "photo": "sit-big-7",
+      "photoBig": "sit-big-7",
+      "synonyms": [
+        "retinere",
+        "retineri din salariu",
+        "opriri",
+        "mi-au taiat din salariu",
+        "penalizare",
+        "amenda de la sef",
+        "daune",
+        "lipsa in gestiune",
+        "popriri"
+      ],
+      "deadlineKindId": "bani-datorati"
+    },
+    {
+      "id": "sunt-in-concediu-medical-si-vor-sa-ma-dea-afara",
+      "title": "Sunt în concediu medical și vor să mă dea afară",
+      "verdict": "no",
+      "verdictLabel": "NU AU VOIE",
+      "plain": "Cât ai certificat medical, cât ești gravidă și angajatorul știe, în concediul de maternitate, de creștere a copilului sau în concediul de odihnă, decizia de concediere nu poate fi emisă. Singura ieșire a angajatorului e reorganizarea judiciară, falimentul sau desființarea firmei.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 60",
+        "text": "Concedierea salariaților nu poate fi dispusă: a) pe durata incapacității temporare de muncă, stabilită prin certificat medical conform legii; [...] c) pe durata în care femeia salariată este gravidă, în măsura în care angajatorul a luat cunoștință de acest fapt anterior emiterii deciziei de concediere; d) pe durata concediului de maternitate; e) pe durata concediului pentru creșterea copilului în vârstă de până la 2 ani sau, în cazul copilului cu handicap, până la împlinirea vârstei de 3 ani; [...] h) pe durata efectuării concediului de odihnă. [...] Prevederile alin. (1) nu se aplică în cazul concedierii pentru motive ce intervin ca urmare a reorganizării judiciare, a falimentului sau a dizolvării angajatorului, în condițiile legii.",
+        "verified": true
+      },
+      "steps": [
+        "Păstrează certificatul medical și dovada că l-ai trimis, cu dată.",
+        "Nu semna nicio hârtie de plecare cât ești în concediu.",
+        "Scrie în jurnal fiecare presiune, în ziua în care se întâmplă."
+      ],
+      "tool": {
+        "label": "Scrie ce s-a întâmplat",
+        "target": "jurnal"
+      },
+      "caption": "folie de pastile",
+      "captionBig": "folie de pastile, de aproape",
+      "photo": "sit-big-8",
+      "photoBig": "sit-big-8",
+      "synonyms": [
+        "concediu medical",
+        "certificat medical",
+        "gravida",
+        "insarcinata",
+        "maternitate",
+        "crestere copil",
+        "concediere in concediu",
+        "boala",
+        "carantina"
+      ],
+      "deadlineKindId": "contestatie-decizie"
+    },
+    {
+      "id": "am-plecat-si-nu-mi-au-platit-concediul",
+      "title": "Am plecat și nu mi-au plătit concediul rămas",
+      "verdict": "no",
+      "verdictLabel": "NU AU VOIE",
+      "plain": "Zilele de concediu neluate până la plecare se plătesc în bani la lichidare. Cât ești încă angajat, ele se iau, cel târziu în următoarele 18 luni.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 146",
+        "text": "Concediul de odihnă se efectuează în fiecare an. În cazul în care salariatul, din motive justificate, nu poate efectua, integral sau parțial, concediul de odihnă anual la care avea dreptul în anul calendaristic respectiv, cu acordul persoanei în cauză, angajatorul este obligat să acorde concediul de odihnă neefectuat într-o perioadă de 18 luni începând cu anul următor celui în care s-a născut dreptul la concediul de odihnă anual. Compensarea în bani a concediului de odihnă neefectuat este permisă numai în cazul încetării contractului individual de muncă.",
+        "verified": true
+      },
+      "steps": [
+        "Cere în scris situația zilelor de concediu rămase la plecare.",
+        "Păstrează decizia de încetare și ultimul fluturaș.",
+        "Trimite cererea de plată pentru zilele neefectuate, cu dată pe ea."
+      ],
+      "tool": {
+        "label": "Cere-ți banii în scris",
+        "target": "notificare"
+      },
+      "caption": "plajă cu umbrele",
+      "captionBig": "plaja de la Costinești, umbrele și oameni la soare",
+      "photo": "sit-big-9",
+      "photoBig": "sit-big-9",
+      "synonyms": [
+        "concediu neefectuat",
+        "zile de concediu ramase",
+        "compensare concediu",
+        "lichidare",
+        "plata concediului",
+        "am demisionat",
+        "zile neluate"
+      ],
+      "deadlineKindId": "bani-datorati"
+    },
+    {
+      "id": "mi-au-schimbat-programul-sau-postul",
+      "title": "Mi-au schimbat programul sau postul fără să mă întrebe",
+      "verdict": "depends",
+      "verdictLabel": "DEPINDE",
+      "plain": "Programul, locul, felul muncii și salariul sunt în contract și se schimbă doar cu semnătura ta pe un act adițional. Angajatorul poate modifica singur ceva doar în cazurile pe care le numește chiar Codul muncii, temporar și cu reguli.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 41",
+        "text": "Contractul individual de muncă poate fi modificat numai prin acordul părților. Cu titlu de excepție, modificarea unilaterală a contractului individual de muncă este posibilă numai în cazurile și în condițiile prevăzute de prezentul cod. Modificarea contractului individual de muncă se referă la oricare dintre următoarele elemente: a) durata contractului; b) locul muncii; c) felul muncii; d) condițiile de muncă; e) salariul; f) timpul de muncă și timpul de odihnă.",
+        "verified": true
+      },
+      "steps": [
+        "Cere modificarea în scris, ca act adițional, înainte să o accepți.",
+        "Păstrează programul vechi și cel nou, cu datele lor.",
+        "Verifică ce scrie în contract cu lista de opt puncte."
+      ],
+      "tool": {
+        "label": "Verifică-ți contractul",
+        "target": "contract"
+      },
+      "caption": "ceas de perete",
+      "captionBig": "cadran de ceas de perete, cu cifre mari",
+      "photo": "sit-big-10",
+      "photoBig": "sit-big-10",
+      "synonyms": [
+        "schimbare program",
+        "mutat pe alt post",
+        "alt loc de munca",
+        "act aditional",
+        "detasare",
+        "delegare",
+        "modificare contract",
+        "tura",
+        "alt oras"
+      ]
+    },
+    {
+      "id": "sunt-in-perioada-de-proba",
+      "title": "Sunt în perioada de probă și vor să mă dea afară",
+      "verdict": "depends",
+      "verdictLabel": "DEPINDE",
+      "plain": "În probă, oricare parte poate încheia contractul printr-o notificare scrisă, fără preaviz și fără motiv. Proba ține cel mult 90 de zile la execuție și 120 la conducere, iar în tot acest timp ai toate drepturile unui angajat, salariul inclus.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 31",
+        "text": "Pentru verificarea aptitudinilor salariatului, la încheierea contractului individual de muncă se poate stabili o perioadă de probă de cel mult 90 de zile calendaristice pentru funcțiile de execuție și de cel mult 120 de zile calendaristice pentru funcțiile de conducere. [...] Pe durata sau la sfârșitul perioadei de probă, contractul individual de muncă poate înceta exclusiv printr-o notificare scrisă, fără preaviz, la inițiativa oricăreia dintre părți, fără a fi necesară motivarea acesteia. Pe durata perioadei de probă salariatul beneficiază de toate drepturile și are toate obligațiile prevăzute în legislația muncii, în contractul colectiv de muncă aplicabil, în regulamentul intern, precum și în contractul individual de muncă.",
+        "verified": true
+      },
+      "steps": [
+        "Verifică în contract câte zile de probă ai și când se termină.",
+        "Cere notificarea de încetare în scris, cu dată.",
+        "Notează în jurnal ce ți s-a cerut și ce ai făcut, zi de zi."
+      ],
+      "tool": {
+        "label": "Scrie ce s-a întâmplat",
+        "target": "jurnal"
+      },
+      "caption": "clepsidră",
+      "captionBig": "clepsidră de alamă pe o masă albă",
+      "photo": "sit-big-11",
+      "photoBig": "sit-big-11",
+      "synonyms": [
+        "proba",
+        "perioada de proba",
+        "trial",
+        "primele luni",
+        "notificare incetare",
+        "fara preaviz",
+        "nou angajat",
+        "angajat de curand"
+      ]
+    },
+    {
+      "id": "ma-pun-sa-lucrez-de-sarbatori",
+      "title": "Mă pun să lucrez de sărbători legale",
+      "verdict": "depends",
+      "verdictLabel": "DEPINDE",
+      "plain": "De sărbătorile legale nu se lucrează, cu excepția locurilor unde activitatea nu se poate opri. Dacă ai lucrat, primești zile libere în următoarele 30 de zile sau, dacă nu se poate, un spor de cel puțin 100% la salariul de bază pentru orele acelea.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 141-142",
+        "text": "Prevederile art. 139 nu se aplică în locurile de muncă în care activitatea nu poate fi întreruptă datorită caracterului procesului de producție sau specificului activității. [...] Salariaților care lucrează în unitățile prevăzute la art. 140, precum și la locurile de muncă prevăzute la art. 141 li se asigură compensarea cu timp liber corespunzător în următoarele 30 de zile. În cazul în care, din motive justificate, nu se acordă zile libere, salariații beneficiază, pentru munca prestată în zilele de sărbătoare legală, de un spor la salariul de bază ce nu poate fi mai mic de 100% din salariul de bază corespunzător muncii prestate în programul normal de lucru.",
+        "verified": true
+      },
+      "steps": [
+        "Notează fiecare sărbătoare lucrată, cu orele, în ziua respectivă.",
+        "Cere în scris zilele libere în cele 30 de zile care urmează.",
+        "Dacă nu le primești, cere sporul pe fluturaș și păstrează-l."
+      ],
+      "tool": {
+        "label": "Pornește contorul de ore",
+        "target": "ore"
+      },
+      "caption": "artificii",
+      "captionBig": "artificii pe cerul nopții",
+      "photo": "sit-big-12",
+      "photoBig": "sit-big-12",
+      "synonyms": [
+        "sarbatori legale",
+        "zile libere legale",
+        "1 mai",
+        "craciun",
+        "paste",
+        "rusalii",
+        "1 decembrie",
+        "spor 100",
+        "lucrat de sarbatoare",
+        "zi libera"
+      ],
+      "deadlineKindId": "bani-datorati"
+    },
+    {
+      "id": "mi-au-pus-clauza-de-neconcurenta",
+      "title": "Mi-au pus clauză de neconcurență",
+      "verdict": "depends",
+      "verdictLabel": "DEPINDE",
+      "plain": "Clauza e valabilă doar dacă scrie concret ce activități îți sunt interzise, unde, pentru cine și cât timp, și vine cu o indemnizație lunară după plecare de cel puțin jumătate din media brutului tău pe ultimele 6 luni. Ține cel mult 2 ani și nu îți poate interzice meseria cu totul.",
+      "law": {
+        "ref": "CODUL MUNCII · ART. 21-23",
+        "text": "Clauza de neconcurență își produce efectele numai dacă în cuprinsul contractului individual de muncă sunt prevăzute în mod concret activitățile ce sunt interzise salariatului la data încetării contractului, cuantumul indemnizației de neconcurență lunare, perioada pentru care își produce efectele clauza de neconcurență, terții în favoarea cărora se interzice prestarea activității, precum și aria geografică unde salariatul poate fi în reală competiție cu angajatorul. [...] Clauza de neconcurență își poate produce efectele pentru o perioadă de maximum 2 ani de la data încetării contractului individual de muncă. [...] Clauza de neconcurență nu poate avea ca efect interzicerea în mod absolut a exercitării profesiei salariatului sau a specializării pe care o deține.",
+        "verified": true
+      },
+      "steps": [
+        "Citește clauza: activități, arie, durată, terți și suma lunară trebuie scrise concret.",
+        "Fără indemnizația scrisă în contract, clauza poate fi lipsită de efecte; păstrează contractul semnat.",
+        "Verifică restul contractului cu lista de opt puncte."
+      ],
+      "tool": {
+        "label": "Verifică-ți contractul",
+        "target": "contract"
+      },
+      "caption": "lacăt cu lanț",
+      "captionBig": "lacăt cu lanț între doi stâlpi de poartă",
+      "photo": "sit-big-13",
+      "photoBig": "sit-big-13",
+      "synonyms": [
+        "neconcurenta",
+        "clauza de neconcurenta",
+        "concurenta",
+        "nu pot lucra la concurenta",
+        "indemnizatie",
+        "dupa plecare",
+        "interdictie",
+        "clauza"
+      ]
     }
   ],
   "code": [
@@ -444,6 +734,95 @@
             "drepturi",
             "ce mi se cuvine"
           ]
+        },
+        {
+          "id": "art-5",
+          "nr": "Art. 5",
+          "title": "Tratament egal la muncă",
+          "original": "În cadrul relațiilor de muncă funcționează principiul egalității de tratament față de toți salariații și angajatorii. Orice discriminare directă sau indirectă față de un salariat, discriminare prin asociere, hărțuire sau faptă de victimizare, bazată pe criteriul de rasă, cetățenie, etnie, culoare, limbă, religie, origine socială, trăsături genetice, sex, orientare sexuală, vârstă, handicap, boală cronică necontagioasă, infectare cu HIV, opțiune politică, situație sau responsabilitate familială, apartenență ori activitate sindicală, apartenență la o categorie defavorizată, este interzisă.",
+          "plain": "Nu poți fi tratat mai prost, hărțuit sau pedepsit pentru că te-ai plâns, din cauza sexului, vârstei, etniei, religiei, orientării, unei boli, a situației de familie sau a sindicatului. Lista din lege e lungă și interdicția e totală.",
+          "caption": "rânduri de scaune identice",
+          "photo": "art-5",
+          "verified": true,
+          "synonyms": [
+            "discriminare",
+            "hartuire",
+            "tratament egal",
+            "egalitate",
+            "victimizare",
+            "sex",
+            "varsta",
+            "etnie",
+            "religie",
+            "sindicat",
+            "handicap"
+          ]
+        },
+        {
+          "id": "art-21",
+          "nr": "Art. 21",
+          "title": "Clauza de neconcurență: condițiile ei",
+          "original": "Clauza de neconcurență își produce efectele numai dacă în cuprinsul contractului individual de muncă sunt prevăzute în mod concret activitățile ce sunt interzise salariatului la data încetării contractului, cuantumul indemnizației de neconcurență lunare, perioada pentru care își produce efectele clauza de neconcurență, terții în favoarea cărora se interzice prestarea activității, precum și aria geografică unde salariatul poate fi în reală competiție cu angajatorul. Indemnizația de neconcurență lunară datorată salariatului nu este de natură salarială, se negociază și este de cel puțin 50% din media veniturilor salariale brute ale salariatului din ultimele 6 luni anterioare datei încetării contractului individual de muncă sau, în cazul în care durata contractului individual de muncă a fost mai mică de 6 luni, din media veniturilor salariale lunare brute cuvenite acestuia pe durata contractului.",
+          "plain": "Clauza te leagă după plecare doar dacă în contract scrie concret ce activități, unde, pentru cine și cât timp îți sunt interzise, plus indemnizația lunară pe care o primești în tot acel timp: cel puțin jumătate din media brutului tău din ultimele 6 luni.",
+          "caption": "lacăt cu lanț",
+          "photo": "sit-big-13",
+          "verified": true,
+          "synonyms": [
+            "neconcurenta",
+            "clauza",
+            "indemnizatie de neconcurenta",
+            "concurenta"
+          ]
+        },
+        {
+          "id": "art-22",
+          "nr": "Art. 22-23",
+          "title": "Limitele clauzei de neconcurență",
+          "original": "Clauza de neconcurență își poate produce efectele pentru o perioadă de maximum 2 ani de la data încetării contractului individual de muncă. [...] Clauza de neconcurență nu poate avea ca efect interzicerea în mod absolut a exercitării profesiei salariatului sau a specializării pe care o deține. La sesizarea salariatului sau a inspectoratului teritorial de muncă instanța competentă poate diminua efectele clauzei de neconcurență.",
+          "plain": "Interdicția durează cel mult 2 ani de la plecare și nu te poate opri de tot să îți practici meseria sau specializarea. Dacă te apasă prea tare, instanța o poate reduce, la cererea ta sau a ITM.",
+          "caption": "lacăt cu lanț",
+          "photo": "sit-big-13",
+          "verified": true,
+          "synonyms": [
+            "2 ani",
+            "neconcurenta",
+            "meseria",
+            "instanta"
+          ]
+        },
+        {
+          "id": "art-31",
+          "nr": "Art. 31",
+          "title": "Perioada de probă",
+          "original": "Pentru verificarea aptitudinilor salariatului, la încheierea contractului individual de muncă se poate stabili o perioadă de probă de cel mult 90 de zile calendaristice pentru funcțiile de execuție și de cel mult 120 de zile calendaristice pentru funcțiile de conducere. [...] Pe durata sau la sfârșitul perioadei de probă, contractul individual de muncă poate înceta exclusiv printr-o notificare scrisă, fără preaviz, la inițiativa oricăreia dintre părți, fără a fi necesară motivarea acesteia. Pe durata perioadei de probă salariatul beneficiază de toate drepturile și are toate obligațiile prevăzute în legislația muncii, în contractul colectiv de muncă aplicabil, în regulamentul intern, precum și în contractul individual de muncă.",
+          "plain": "Proba ține cel mult 90 de zile la funcțiile de execuție și 120 la conducere. În ea, oricare parte poate încheia contractul cu o notificare scrisă, fără preaviz și fără motiv, dar salariul și toate celelalte drepturi sunt întregi din prima zi.",
+          "caption": "clepsidră de alamă",
+          "photo": "sit-big-11",
+          "verified": true,
+          "synonyms": [
+            "proba",
+            "perioada de proba",
+            "90 de zile",
+            "notificare",
+            "nou angajat"
+          ]
+        },
+        {
+          "id": "art-41",
+          "nr": "Art. 41",
+          "title": "Contractul se schimbă doar cu acordul tău",
+          "original": "Contractul individual de muncă poate fi modificat numai prin acordul părților. Cu titlu de excepție, modificarea unilaterală a contractului individual de muncă este posibilă numai în cazurile și în condițiile prevăzute de prezentul cod. Modificarea contractului individual de muncă se referă la oricare dintre următoarele elemente: a) durata contractului; b) locul muncii; c) felul muncii; d) condițiile de muncă; e) salariul; f) timpul de muncă și timpul de odihnă.",
+          "plain": "Durata, locul, felul muncii, condițiile, salariul și programul sunt în contract, iar orice schimbare se semnează de ambele părți. Angajatorul poate modifica singur ceva doar în cazurile pe care le numește chiar Codul muncii.",
+          "caption": "cadran de ceas de perete",
+          "photo": "sit-big-10",
+          "verified": true,
+          "synonyms": [
+            "modificare contract",
+            "act aditional",
+            "acordul partilor",
+            "schimbare post",
+            "schimbare program"
+          ]
         }
       ]
     },
@@ -481,6 +860,23 @@
             "plata salariului",
             "cand primesc banii",
             "data salariului"
+          ]
+        },
+        {
+          "id": "art-169",
+          "nr": "Art. 169",
+          "title": "Reținerile din salariu",
+          "original": "Nicio reținere din salariu nu poate fi operată, în afara cazurilor și condițiilor prevăzute de lege. Reținerile cu titlu de daune cauzate angajatorului nu pot fi efectuate decât dacă datoria salariatului este scadentă, lichidă și exigibilă și a fost constatată ca atare printr-o hotărâre judecătorească definitivă și irevocabilă. [...] Reținerile din salariu cumulate nu pot depăși în fiecare lună jumătate din salariul net.",
+          "plain": "Din salariu se poate opri doar ce permite legea. Pentru o pagubă, angajatorul are nevoie de o hotărâre judecătorească definitivă, iar toate reținerile la un loc nu pot trece de jumătate din netul tău într-o lună.",
+          "caption": "monede în frescă antică",
+          "photo": "sit-big-7",
+          "verified": true,
+          "synonyms": [
+            "retineri",
+            "opriri din salariu",
+            "daune",
+            "jumatate din salariu",
+            "popriri"
           ]
         }
       ]
@@ -535,12 +931,29 @@
             "ore suplimentare",
             "compensare"
           ]
+        },
+        {
+          "id": "art-119",
+          "nr": "Art. 119",
+          "title": "Evidența orelor e obligația angajatorului",
+          "original": "Angajatorul are obligația de a ține la locul de muncă definit potrivit art. 16^1 evidența orelor de muncă prestate zilnic de fiecare salariat, cu evidențierea orelor de începere și de sfârșit ale programului de lucru, și de a supune controlului inspectorilor de muncă această evidență, ori de câte ori se solicită acest lucru.",
+          "plain": "Angajatorul ține zilnic evidența orelor tale, cu ora de început și de sfârșit, și o arată inspectorului de muncă la cerere. Ține și tu socoteala, zi de zi, în jurnal, ca să ai cu ce compara pontajul lui.",
+          "caption": "ceas de pontaj și fișe",
+          "photo": "art-112",
+          "verified": true,
+          "synonyms": [
+            "pontaj",
+            "evidenta orelor",
+            "condica",
+            "ore lucrate",
+            "ora de inceput"
+          ]
         }
       ]
     },
     {
       "roman": "IV",
-      "title": "Concediile",
+      "title": "Concediile și zilele libere",
       "caption": "zile libere",
       "photo": "cod-IV",
       "articles": [
@@ -570,6 +983,58 @@
           "synonyms": [
             "20 de zile",
             "zile de concediu"
+          ]
+        },
+        {
+          "id": "art-137",
+          "nr": "Art. 137",
+          "title": "Repausul săptămânal: 48 de ore",
+          "original": "Repausul săptămânal este de 48 de ore consecutive, de regulă sâmbăta și duminica. [...] În cazul în care repausul în zilele de sâmbătă și duminică ar prejudicia interesul public sau desfășurarea normală a activității, repausul săptămânal poate fi acordat și în alte zile stabilite prin contractul colectiv de muncă aplicabil sau prin regulamentul intern. [...] În situația prevăzută la alin. (2) salariații vor beneficia de un spor la salariu stabilit prin contractul colectiv de muncă sau, după caz, prin contractul individual de muncă.",
+          "plain": "Ai dreptul la 48 de ore libere la rând în fiecare săptămână, de regulă sâmbăta și duminica. Dacă firma îți dă liber în alte zile, contractul colectiv sau cel individual trebuie să prevadă un spor pentru asta.",
+          "caption": "hamac în grădină, lângă o masă",
+          "photo": "art-137",
+          "verified": true,
+          "synonyms": [
+            "repaus saptamanal",
+            "weekend",
+            "sambata",
+            "duminica",
+            "48 de ore",
+            "zile libere"
+          ]
+        },
+        {
+          "id": "art-142",
+          "nr": "Art. 141-142",
+          "title": "Sărbătorile legale lucrate",
+          "original": "Prevederile art. 139 nu se aplică în locurile de muncă în care activitatea nu poate fi întreruptă datorită caracterului procesului de producție sau specificului activității. [...] Salariaților care lucrează în unitățile prevăzute la art. 140, precum și la locurile de muncă prevăzute la art. 141 li se asigură compensarea cu timp liber corespunzător în următoarele 30 de zile. În cazul în care, din motive justificate, nu se acordă zile libere, salariații beneficiază, pentru munca prestată în zilele de sărbătoare legală, de un spor la salariul de bază ce nu poate fi mai mic de 100% din salariul de bază corespunzător muncii prestate în programul normal de lucru.",
+          "plain": "Dacă ai lucrat de sărbătoare legală, primești zile libere în următoarele 30 de zile. Dacă firma nu poate să ți le dea, orele acelea se plătesc cu un spor de cel puțin 100% la salariul de bază.",
+          "caption": "artificii pe cer",
+          "photo": "sit-big-12",
+          "verified": true,
+          "synonyms": [
+            "sarbatori legale",
+            "spor 100",
+            "zile libere",
+            "craciun",
+            "paste"
+          ]
+        },
+        {
+          "id": "art-146",
+          "nr": "Art. 146",
+          "title": "Concediul neefectuat se reportează 18 luni",
+          "original": "Concediul de odihnă se efectuează în fiecare an. În cazul în care salariatul, din motive justificate, nu poate efectua, integral sau parțial, concediul de odihnă anual la care avea dreptul în anul calendaristic respectiv, cu acordul persoanei în cauză, angajatorul este obligat să acorde concediul de odihnă neefectuat într-o perioadă de 18 luni începând cu anul următor celui în care s-a născut dreptul la concediul de odihnă anual. Compensarea în bani a concediului de odihnă neefectuat este permisă numai în cazul încetării contractului individual de muncă.",
+          "plain": "Zilele de concediu pe care nu le-ai putut lua se iau în următoarele 18 luni, cu acordul tău. Bani în locul zilelor primești doar când pleci din firmă, pentru tot ce a rămas neefectuat.",
+          "caption": "plajă cu umbrele",
+          "photo": "sit-big-9",
+          "verified": true,
+          "synonyms": [
+            "concediu neefectuat",
+            "report concediu",
+            "compensare in bani",
+            "18 luni",
+            "lichidare"
           ]
         }
       ]
@@ -609,6 +1074,23 @@
             "preaviz",
             "plec de la munca"
           ]
+        },
+        {
+          "id": "art-60",
+          "nr": "Art. 60",
+          "title": "Când concedierea e interzisă",
+          "original": "Concedierea salariaților nu poate fi dispusă: a) pe durata incapacității temporare de muncă, stabilită prin certificat medical conform legii; [...] c) pe durata în care femeia salariată este gravidă, în măsura în care angajatorul a luat cunoștință de acest fapt anterior emiterii deciziei de concediere; d) pe durata concediului de maternitate; e) pe durata concediului pentru creșterea copilului în vârstă de până la 2 ani sau, în cazul copilului cu handicap, până la împlinirea vârstei de 3 ani; [...] h) pe durata efectuării concediului de odihnă. [...] Prevederile alin. (1) nu se aplică în cazul concedierii pentru motive ce intervin ca urmare a reorganizării judiciare, a falimentului sau a dizolvării angajatorului, în condițiile legii.",
+          "plain": "Decizia de concediere nu poate fi emisă cât ai certificat medical, cât ești gravidă și angajatorul știe, în concediul de maternitate, în cel de creștere a copilului sau în concediul de odihnă. Rămân doar reorganizarea judiciară, falimentul și desființarea firmei.",
+          "caption": "folie de pastile",
+          "photo": "sit-big-8",
+          "verified": true,
+          "synonyms": [
+            "concediere interzisa",
+            "concediu medical",
+            "gravida",
+            "maternitate",
+            "concediu de odihna"
+          ]
         }
       ]
     },
@@ -632,6 +1114,111 @@
             "munca la negru",
             "sanctiune",
             "itm"
+          ]
+        }
+      ]
+    },
+    {
+      "roman": "VII",
+      "title": "Sancțiunile disciplinare",
+      "caption": "clape de mașină de scris",
+      "photo": "cod-VII",
+      "articles": [
+        {
+          "id": "art-248",
+          "nr": "Art. 248",
+          "title": "Ce sancțiuni există și cât țin",
+          "original": "Sancțiunile disciplinare pe care le poate aplica angajatorul în cazul în care salariatul săvârșește o abatere disciplinară sunt: a) avertismentul scris; b) retrogradarea din funcție, cu acordarea salariului corespunzător funcției în care s-a dispus retrogradarea, pentru o durată ce nu poate depăși 60 de zile; c) reducerea salariului de bază pe o durată de 1-3 luni cu 5-10%; d) reducerea salariului de bază și/sau, după caz, și a indemnizației de conducere pe o perioadă de 1-3 luni cu 5-10%; e) desfacerea disciplinară a contractului individual de muncă. [...] Sancțiunea disciplinară se radiază de drept în termen de 12 luni de la aplicare, dacă salariatului nu i se aplică o nouă sancțiune disciplinară în acest termen.",
+          "plain": "Sancțiunile posibile sunt cinci, de la avertisment scris până la desfacerea contractului, iar tăierea din salariu e de cel mult 10% pentru cel mult 3 luni. Orice sancțiune se șterge de la sine după 12 luni fără alta nouă.",
+          "caption": "plic scris de mână, cu timbru",
+          "photo": "notificare",
+          "verified": true,
+          "synonyms": [
+            "sanctiuni",
+            "avertisment",
+            "retrogradare",
+            "reducere salariu",
+            "radiere",
+            "12 luni"
+          ]
+        },
+        {
+          "id": "art-251",
+          "nr": "Art. 251",
+          "title": "Cercetarea disciplinară, înainte de orice sancțiune",
+          "original": "Sub sancțiunea nulității absolute, nicio măsură, cu excepția celei prevăzute la art. 248 alin. (1) lit. a), nu poate fi dispusă mai înainte de efectuarea unei cercetări disciplinare prealabile. [...] În cursul cercetării disciplinare prealabile salariatul are dreptul să formuleze și să susțină toate apărările în favoarea sa și să ofere comisiei sau persoanei împuternicite să realizeze cercetarea toate probele și motivațiile pe care le consideră necesare, precum și dreptul să fie asistat, la cererea sa, de către un consultant extern specializat în legislația muncii sau de către un reprezentant al sindicatului al cărui membru este.",
+          "plain": "În afară de avertismentul scris, nicio sancțiune nu poate veni fără o cercetare disciplinară înainte. La ea îți susții apărările, aduci ce probe vrei și poți veni cu un reprezentant al sindicatului sau cu un consultant în legislația muncii. O sancțiune dată fără cercetare poate fi lovită de nulitate.",
+          "caption": "peniță de stilou",
+          "photo": "sit-big-6",
+          "verified": true,
+          "synonyms": [
+            "cercetare disciplinara",
+            "convocare",
+            "aparare",
+            "nulitate",
+            "sindicat"
+          ]
+        },
+        {
+          "id": "art-252",
+          "nr": "Art. 252",
+          "title": "Decizia de sancționare și contestația ei",
+          "original": "Angajatorul dispune aplicarea sancțiunii disciplinare printr-o decizie emisă în formă scrisă, în termen de 30 de zile calendaristice de la data luării la cunoștință despre săvârșirea abaterii disciplinare, dar nu mai târziu de 6 luni de la data săvârșirii faptei. [...] Decizia de sancționare se comunică salariatului în cel mult 5 zile calendaristice de la data emiterii și produce efecte de la data comunicării. Comunicarea se predă personal salariatului, cu semnătură de primire, ori, în caz de refuz al primirii, prin scrisoare recomandată, la domiciliul sau reședința comunicată de acesta. Decizia de sancționare poate fi contestată de salariat la instanțele judecătorești competente în termen de 30 de zile calendaristice de la data comunicării.",
+          "plain": "Decizia vine scrisă, în cel mult 30 de zile de când angajatorul a aflat de faptă și cel mult 6 luni de la faptă, și ți se predă personal cu semnătură sau prin scrisoare recomandată. Din ziua în care ai primit-o ai 30 de zile să o contești în instanță.",
+          "caption": "ștampilă de cauciuc pe tușieră",
+          "photo": "art-252",
+          "verified": true,
+          "synonyms": [
+            "decizie de sanctionare",
+            "contestatie",
+            "30 de zile",
+            "comunicare",
+            "scrisoare recomandata"
+          ]
+        }
+      ]
+    },
+    {
+      "roman": "VIII",
+      "title": "Conflictele de muncă",
+      "caption": "masă de ședință cu scaune",
+      "photo": "cod-VIII",
+      "articles": [
+        {
+          "id": "art-268",
+          "nr": "Art. 268",
+          "title": "Termenele pentru a te adresa instanței",
+          "original": "Cererile în vederea soluționării unui conflict de muncă pot fi formulate: a) în termen de 45 de zile calendaristice de la data la care cel interesat a luat cunoștință de măsura dispusă referitoare la încheierea, executarea, modificarea, suspendarea sau încetarea contractului individual de muncă, inclusiv angajamentele de plată a unor sume de bani; [...] b) în termen de 30 de zile calendaristice de la data în care s-a comunicat decizia de sancționare disciplinară; c) în termen de 3 ani de la data nașterii dreptului la acțiune, în situația în care obiectul conflictului individual de muncă constă în plata unor drepturi salariale neacordate sau a unor despăgubiri către salariat, precum și în cazul răspunderii patrimoniale a salariaților față de angajator;",
+          "plain": "Ai 45 de zile de când ai aflat de o decizie luată peste contractul tău, concedierea inclusiv. Pentru o sancțiune disciplinară ai 30 de zile de la comunicare, iar pentru bani datorați 3 ani din ziua în care trebuiau plătiți.",
+          "caption": "ceas de buzunar deschis",
+          "photo": "art-268",
+          "verified": true,
+          "synonyms": [
+            "termen",
+            "contestatie",
+            "45 de zile",
+            "30 de zile",
+            "3 ani",
+            "instanta",
+            "prescriptie",
+            "cat timp am"
+          ]
+        },
+        {
+          "id": "art-272",
+          "nr": "Art. 272",
+          "title": "Angajatorul trebuie să dovedească",
+          "original": "Sarcina probei în conflictele de muncă revine angajatorului, acesta fiind obligat să depună dovezile în apărarea sa până la prima zi de înfățișare.",
+          "plain": "Într-un proces de muncă, angajatorul e cel care aduce dovezile, până la primul termen. Ce ai notat tu, cu dată, e ce poți pune alături de hârtiile lui.",
+          "caption": "teanc de bibliorafturi albe",
+          "photo": "art-272",
+          "verified": true,
+          "synonyms": [
+            "sarcina probei",
+            "dovezi",
+            "proces",
+            "instanta",
+            "probe"
           ]
         }
       ]
@@ -1294,7 +1881,7 @@
       "basis": "art. 268 alin. (1) lit. b) Codul muncii",
       "certainty": "settled",
       "disputeNote": "",
-      "situationId": ""
+      "situationId": "am-primit-sanctiune-disciplinara"
     },
     {
       "id": "salariu-neplatit",
@@ -1307,6 +1894,18 @@
       "certainty": "settled",
       "disputeNote": "",
       "situationId": "nu-mi-au-platit-salariul"
+    },
+    {
+      "id": "bani-datorati",
+      "question": "Îmi datorează bani",
+      "dateQuestion": "Când trebuia să primești banii?",
+      "title": "Cere banii datorați",
+      "days": 1095,
+      "unit": "calendar",
+      "basis": "art. 268 alin. (1) lit. c) Codul muncii",
+      "certainty": "settled",
+      "disputeNote": "",
+      "situationId": ""
     },
     {
       "id": "preaviz-demisie",
