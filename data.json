@@ -1,6 +1,6 @@
 {
   "schemaVersion": 4,
-  "version": 13,
+  "version": 14,
   "updatedAt": "2026-09-07",
   "verifiedAt": "2026-09-05",
   "jobs": [
@@ -140,7 +140,8 @@
       "id": "bonus-tichete-de-masa",
       "label": "Tichete de masă",
       "amount": 40,
-      "period": 1
+      "period": 1,
+      "taxed": true
     },
     {
       "id": "bonus-bonus-de-performanta",
@@ -221,7 +222,7 @@
         "target": "notificare"
       },
       "caption": "fluturaș de salariu",
-      "captionBig": "hârtie veche cu sume de plată",
+      "captionBig": "portofel gol, deschis",
       "photo": "sit-0",
       "photoBig": "sit-big-0",
       "synonyms": [
@@ -287,10 +288,10 @@
         "label": "Pornește contorul de ore",
         "target": "ore"
       },
-      "caption": "pontaj târziu",
-      "captionBig": "ceas de pontaj și fișe",
-      "photo": "sit-2",
-      "photoBig": "sit-big-2",
+      "caption": "ceas de mână, de aproape",
+      "captionBig": "ceas de perete cu cadran mare",
+      "photo": "ore-suplimentare",
+      "photoBig": "art-114",
       "synonyms": [
         "ore suplimentare",
         "peste program",
@@ -319,9 +320,9 @@
         "label": "Scrie cererea și refuzul",
         "target": "jurnal"
       },
-      "caption": "valiză, concediu",
+      "caption": "valiză cu lacăt",
       "captionBig": "valiză încuiată cu lacăt",
-      "photo": "sit-3",
+      "photo": "sit-big-3",
       "photoBig": "sit-big-3",
       "synonyms": [
         "concediu",
@@ -350,9 +351,9 @@
         "label": "Verifică-ți contractul",
         "target": "contract"
       },
-      "caption": "mână fără acte",
+      "caption": "strângere de mână, desen",
       "captionBig": "strângere de mână, desen",
-      "photo": "sit-4",
+      "photo": "sit-big-4",
       "photoBig": "sit-big-4",
       "synonyms": [
         "la negru",
@@ -382,7 +383,7 @@
         "target": "demisie"
       },
       "caption": "demisie pe birou",
-      "captionBig": "caiet deschis și pix",
+      "captionBig": "coridor spre o ușă deschisă, cu lumină",
       "photo": "sit-5",
       "photoBig": "sit-big-5",
       "synonyms": [
@@ -712,8 +713,8 @@
           "title": "Ce trebuie să ți se spună la angajare",
           "original": "Anterior încheierii sau modificării contractului individual de muncă, angajatorul are obligația de a informa persoana selectată în vederea angajării ori, după caz, salariatul, cu privire la clauzele esențiale pe care intenționează să le înscrie în contract sau să le modifice.",
           "plain": "Salariul, programul, funcția, concediul: ți se spun toate înainte să semnezi, nu după.",
-          "caption": "discuție la angajare",
-          "photo": "art-17",
+          "caption": "masă de ședință cu scaune",
+          "photo": "cod-VIII",
           "verified": true,
           "synonyms": [
             "informare",
@@ -727,7 +728,7 @@
           "title": "Drepturile tale de bază",
           "original": "Salariatul are, în principal, următoarele drepturi: a) dreptul la salarizare pentru munca depusă; b) dreptul la repaus zilnic și săptămânal; c) dreptul la concediu de odihnă anual; d) dreptul la egalitate de șanse și de tratament; e) dreptul la demnitate în muncă; f) dreptul la securitate și sănătate în muncă; [...] j) dreptul la protecție în caz de concediere; [...]",
           "plain": "Plată pentru toată munca, pauze, concediu, tratament egal și respect. Pachetul minim, garantat de lege.",
-          "caption": "muncă de zi cu zi",
+          "caption": "unelte vechi și mănuși de lucru pe lemn",
           "photo": "art-39",
           "verified": true,
           "synonyms": [
@@ -963,8 +964,8 @@
           "title": "Concediul anual, garantat",
           "original": "Dreptul la concediu de odihnă anual plătit este garantat tuturor salariaților. Dreptul la concediu de odihnă anual nu poate forma obiectul vreunei cesiuni, renunțări sau limitări.",
           "plain": "Concediul e al tău prin lege. Nu poți renunța la el, nici dacă ai semna că vrei.",
-          "caption": "zi liberă, familie",
-          "photo": "art-144",
+          "caption": "plajă cu umbrele",
+          "photo": "sit-big-9",
           "verified": true,
           "synonyms": [
             "concediu anual",
