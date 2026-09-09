@@ -1,7 +1,7 @@
 {
   "schemaVersion": 4,
-  "version": 14,
-  "updatedAt": "2026-09-07",
+  "version": 15,
+  "updatedAt": "2026-09-09",
   "verifiedAt": "2026-09-05",
   "jobs": [
     {
@@ -1789,7 +1789,7 @@
     "deducereBasis": "Deducerea de bază, art. 77 Codul fiscal, la salariul minim stabilit prin HG 146/2026."
   },
   "texts": {
-    "independenta": "Aplicație independentă. Nu este afiliată ITM, ANAF sau altei instituții publice.",
+    "independenta": "Aplicație independentă. Angajo nu reprezintă ITM, ANAF sau altă instituție publică și nu este afiliată acestora.",
     "contact": "andreialgebo@gmail.com"
   },
   "documents": {
@@ -1933,9 +1933,21 @@
       "situationId": ""
     }
   ],
-  "lawSource": {
-    "url": "https://legislatie.just.ro/Public/DetaliiDocument/128647",
-    "retrieved": "2026-09-05",
-    "note": "CODUL MUNCII (R), forma consolidată"
-  }
+  "sources": [
+    {
+      "label": "Codul muncii (Legea 53/2003, republicată), forma consolidată - Portal Legislativ, Ministerul Justiției",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/128647",
+      "retrieved": "2026-09-05"
+    },
+    {
+      "label": "Codul fiscal (Legea 227/2015), forma consolidată - sursa cotelor de impozit și contribuții",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/171282",
+      "retrieved": "2026-09-09"
+    },
+    {
+      "label": "H.G. 146/2026, salariul de bază minim brut pe țară garantat în plată (M. Of. 196 din 13 martie 2026)",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/308231",
+      "retrieved": "2026-09-09"
+    }
+  ]
 }
