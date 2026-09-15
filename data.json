@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 4,
-  "version": 16,
-  "updatedAt": "2026-09-14",
+  "schemaVersion": 5,
+  "version": 18,
+  "updatedAt": "2026-09-15",
   "verifiedAt": "2026-09-05",
   "jobs": [
     {
@@ -9,7 +9,66 @@
       "name": "Lucrător comercial",
       "category": "Vânzări · retail",
       "mono": "Vz",
-      "baseNet": 3400,
+      "caen": "47",
+      "occ": "serv",
+      "alias": [
+        "vanzator",
+        "vanzatoare",
+        "magazin",
+        "raion"
+      ],
+      "photo": "job-lucrator-comercial"
+    },
+    {
+      "id": "casier",
+      "name": "Casier",
+      "category": "Vânzări · retail",
+      "mono": "Vz",
+      "caen": "47",
+      "occ": "serv",
+      "alias": [
+        "casa de marcat",
+        "supermarket"
+      ],
+      "photo": "job-lucrator-comercial"
+    },
+    {
+      "id": "sef-magazin",
+      "name": "Șef de magazin",
+      "category": "Vânzări · retail",
+      "mono": "Vz",
+      "caen": "47",
+      "occ": "spec",
+      "alias": [
+        "store manager",
+        "sef tura"
+      ],
+      "photo": "job-lucrator-comercial"
+    },
+    {
+      "id": "agent-vanzari",
+      "name": "Agent de vânzări",
+      "category": "Vânzări · retail",
+      "mono": "Vz",
+      "caen": "46",
+      "occ": "serv",
+      "alias": [
+        "sales",
+        "vanzari"
+      ],
+      "photo": "job-lucrator-comercial"
+    },
+    {
+      "id": "reprezentant-comercial",
+      "name": "Reprezentant comercial",
+      "category": "Vânzări · retail",
+      "mono": "Vz",
+      "caen": "46",
+      "occ": "spec",
+      "alias": [
+        "sales rep",
+        "comercial"
+      ],
       "photo": "job-lucrator-comercial"
     },
     {
@@ -17,7 +76,68 @@
       "name": "Șofer profesionist",
       "category": "Transport",
       "mono": "Tr",
-      "baseNet": 4200,
+      "caen": "49",
+      "occ": "oper",
+      "alias": [
+        "tir",
+        "camion",
+        "categoria c",
+        "e"
+      ],
+      "photo": "job-sofer-profesionist"
+    },
+    {
+      "id": "sofer-livrari",
+      "name": "Șofer de livrări",
+      "category": "Transport",
+      "mono": "Tr",
+      "caen": "49",
+      "occ": "oper",
+      "alias": [
+        "livrator",
+        "distributie"
+      ],
+      "photo": "job-sofer-profesionist"
+    },
+    {
+      "id": "sofer-taxi",
+      "name": "Șofer de taxi",
+      "category": "Transport",
+      "mono": "Tr",
+      "caen": "49",
+      "occ": "oper",
+      "alias": [
+        "uber",
+        "bolt",
+        "ridesharing"
+      ],
+      "photo": "job-sofer-profesionist"
+    },
+    {
+      "id": "sofer-autobuz",
+      "name": "Șofer de autobuz",
+      "category": "Transport",
+      "mono": "Tr",
+      "caen": "49",
+      "occ": "oper",
+      "alias": [
+        "troleibuz",
+        "transport public",
+        "stb"
+      ],
+      "photo": "job-sofer-profesionist"
+    },
+    {
+      "id": "mecanic-auto",
+      "name": "Mecanic auto",
+      "category": "Transport",
+      "mono": "Tr",
+      "caen": "33",
+      "occ": "calif",
+      "alias": [
+        "service auto",
+        "atelier"
+      ],
       "photo": "job-sofer-profesionist"
     },
     {
@@ -25,7 +145,84 @@
       "name": "Programator",
       "category": "IT & software",
       "mono": "IT",
-      "baseNet": 9800,
+      "caen": "62",
+      "occ": "spec",
+      "alias": [
+        "it",
+        "developer",
+        "dezvoltator",
+        "software",
+        "coder"
+      ],
+      "photo": "job-programator"
+    },
+    {
+      "id": "tester-qa",
+      "name": "Tester QA",
+      "category": "IT & software",
+      "mono": "IT",
+      "caen": "62",
+      "occ": "spec",
+      "alias": [
+        "qa",
+        "testare",
+        "quality"
+      ],
+      "photo": "job-programator"
+    },
+    {
+      "id": "administrator-sisteme",
+      "name": "Administrator de sisteme",
+      "category": "IT & software",
+      "mono": "IT",
+      "caen": "63",
+      "occ": "spec",
+      "alias": [
+        "sysadmin",
+        "devops",
+        "retea"
+      ],
+      "photo": "job-programator"
+    },
+    {
+      "id": "suport-tehnic",
+      "name": "Suport tehnic",
+      "category": "IT & software",
+      "mono": "IT",
+      "caen": "62",
+      "occ": "teh",
+      "alias": [
+        "helpdesk",
+        "service desk"
+      ],
+      "photo": "job-programator"
+    },
+    {
+      "id": "designer-ui",
+      "name": "Designer UI/UX",
+      "category": "IT & software",
+      "mono": "IT",
+      "caen": "62",
+      "occ": "spec",
+      "alias": [
+        "design",
+        "grafician",
+        "ux"
+      ],
+      "photo": "job-programator"
+    },
+    {
+      "id": "analist-date",
+      "name": "Analist de date",
+      "category": "IT & software",
+      "mono": "IT",
+      "caen": "63",
+      "occ": "spec",
+      "alias": [
+        "data",
+        "raportare",
+        "bi"
+      ],
       "photo": "job-programator"
     },
     {
@@ -33,7 +230,121 @@
       "name": "Contabil",
       "category": "Financiar",
       "mono": "Fi",
-      "baseNet": 5200,
+      "caen": "69",
+      "occ": "spec",
+      "alias": [
+        "contabilitate",
+        "expert contabil"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "economist",
+      "name": "Economist",
+      "category": "Financiar",
+      "mono": "Fi",
+      "caen": "69",
+      "occ": "spec",
+      "alias": [
+        "financiar",
+        "buget"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "lucrator-bancar",
+      "name": "Lucrător bancar",
+      "category": "Financiar",
+      "mono": "Fi",
+      "caen": "64",
+      "occ": "func",
+      "alias": [
+        "banca",
+        "ghiseu",
+        "casier banca"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "agent-asigurari",
+      "name": "Agent de asigurări",
+      "category": "Financiar",
+      "mono": "Fi",
+      "caen": "65",
+      "occ": "serv",
+      "alias": [
+        "asigurari",
+        "broker"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "auditor",
+      "name": "Auditor",
+      "category": "Financiar",
+      "mono": "Fi",
+      "caen": "69",
+      "occ": "spec",
+      "alias": [
+        "audit",
+        "control intern"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "asistent-manager",
+      "name": "Asistent manager",
+      "category": "Birou & administrativ",
+      "mono": "Bi",
+      "caen": "82",
+      "occ": "func",
+      "alias": [
+        "secretara",
+        "secretariat",
+        "office"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "operator-call-center",
+      "name": "Operator call center",
+      "category": "Birou & administrativ",
+      "mono": "Bi",
+      "caen": "82",
+      "occ": "func",
+      "alias": [
+        "call center",
+        "telefonic",
+        "relatii clienti"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "specialist-resurse-umane",
+      "name": "Specialist resurse umane",
+      "category": "Birou & administrativ",
+      "mono": "Bi",
+      "caen": "78",
+      "occ": "spec",
+      "alias": [
+        "hr",
+        "resurse umane",
+        "recrutare"
+      ],
+      "photo": "job-contabil"
+    },
+    {
+      "id": "functionar-administrativ",
+      "name": "Funcționar administrativ",
+      "category": "Birou & administrativ",
+      "mono": "Bi",
+      "caen": "82",
+      "occ": "func",
+      "alias": [
+        "birou",
+        "registratura",
+        "arhiva"
+      ],
       "photo": "job-contabil"
     },
     {
@@ -41,15 +352,147 @@
       "name": "Ospătar / barman",
       "category": "HoReCa",
       "mono": "Ho",
-      "baseNet": 3300,
+      "caen": "56",
+      "occ": "serv",
+      "alias": [
+        "chelner",
+        "bar",
+        "restaurant"
+      ],
+      "photo": "job-ospatar-barman"
+    },
+    {
+      "id": "bucatar",
+      "name": "Bucătar",
+      "category": "HoReCa",
+      "mono": "Ho",
+      "caen": "56",
+      "occ": "calif",
+      "alias": [
+        "bucatarie",
+        "chef"
+      ],
+      "photo": "job-ospatar-barman"
+    },
+    {
+      "id": "ajutor-bucatar",
+      "name": "Ajutor de bucătar",
+      "category": "HoReCa",
+      "mono": "Ho",
+      "caen": "56",
+      "occ": "elem",
+      "alias": [
+        "spalator vase",
+        "bucatarie"
+      ],
+      "photo": "job-ospatar-barman"
+    },
+    {
+      "id": "receptioner",
+      "name": "Recepționer",
+      "category": "HoReCa",
+      "mono": "Ho",
+      "caen": "55",
+      "occ": "serv",
+      "alias": [
+        "hotel",
+        "receptie",
+        "front desk"
+      ],
+      "photo": "job-ospatar-barman"
+    },
+    {
+      "id": "camerista",
+      "name": "Cameristă",
+      "category": "HoReCa",
+      "mono": "Ho",
+      "caen": "55",
+      "occ": "elem",
+      "alias": [
+        "hotel",
+        "menaj",
+        "housekeeping"
+      ],
       "photo": "job-ospatar-barman"
     },
     {
       "id": "muncitor-constructii",
-      "name": "Muncitor construcții",
+      "name": "Muncitor în construcții",
       "category": "Construcții",
       "mono": "Co",
-      "baseNet": 4300,
+      "caen": "41",
+      "occ": "elem",
+      "alias": [
+        "santier",
+        "necalificat"
+      ],
+      "photo": "job-muncitor-constructii"
+    },
+    {
+      "id": "zidar",
+      "name": "Zidar",
+      "category": "Construcții",
+      "mono": "Co",
+      "caen": "41",
+      "occ": "calif",
+      "alias": [
+        "constructii",
+        "caramida"
+      ],
+      "photo": "job-muncitor-constructii"
+    },
+    {
+      "id": "dulgher",
+      "name": "Dulgher",
+      "category": "Construcții",
+      "mono": "Co",
+      "caen": "41",
+      "occ": "calif",
+      "alias": [
+        "cofraje",
+        "lemn"
+      ],
+      "photo": "job-muncitor-constructii"
+    },
+    {
+      "id": "zugrav",
+      "name": "Zugrav",
+      "category": "Construcții",
+      "mono": "Co",
+      "caen": "43",
+      "occ": "calif",
+      "alias": [
+        "vopsitor",
+        "finisaje",
+        "amenajari"
+      ],
+      "photo": "job-muncitor-constructii"
+    },
+    {
+      "id": "sef-santier",
+      "name": "Șef de șantier",
+      "category": "Construcții",
+      "mono": "Co",
+      "caen": "41",
+      "occ": "spec",
+      "alias": [
+        "maistru",
+        "coordonator"
+      ],
+      "photo": "job-muncitor-constructii"
+    },
+    {
+      "id": "inginer-constructor",
+      "name": "Inginer constructor",
+      "category": "Construcții",
+      "mono": "Co",
+      "caen": "71",
+      "occ": "spec",
+      "alias": [
+        "proiectare",
+        "structuri",
+        "diriginte de santier"
+      ],
       "photo": "job-muncitor-constructii"
     },
     {
@@ -57,7 +500,66 @@
       "name": "Asistent medical",
       "category": "Sănătate",
       "mono": "Sa",
-      "baseNet": 5600,
+      "caen": "86",
+      "occ": "teh",
+      "alias": [
+        "spital",
+        "cabinet",
+        "asistenta"
+      ],
+      "photo": "job-asistent-medical"
+    },
+    {
+      "id": "medic",
+      "name": "Medic",
+      "category": "Sănătate",
+      "mono": "Sa",
+      "caen": "86",
+      "occ": "spec",
+      "alias": [
+        "doctor",
+        "spital",
+        "rezident"
+      ],
+      "photo": "job-asistent-medical"
+    },
+    {
+      "id": "infirmier",
+      "name": "Infirmier",
+      "category": "Sănătate",
+      "mono": "Sa",
+      "caen": "86",
+      "occ": "elem",
+      "alias": [
+        "spital",
+        "ingrijire"
+      ],
+      "photo": "job-asistent-medical"
+    },
+    {
+      "id": "farmacist",
+      "name": "Farmacist",
+      "category": "Sănătate",
+      "mono": "Sa",
+      "caen": "47",
+      "occ": "spec",
+      "alias": [
+        "farmacie",
+        "medicamente"
+      ],
+      "photo": "job-asistent-medical"
+    },
+    {
+      "id": "kinetoterapeut",
+      "name": "Kinetoterapeut",
+      "category": "Sănătate",
+      "mono": "Sa",
+      "caen": "86",
+      "occ": "spec",
+      "alias": [
+        "recuperare",
+        "fizioterapie"
+      ],
       "photo": "job-asistent-medical"
     },
     {
@@ -65,7 +567,53 @@
       "name": "Profesor",
       "category": "Educație",
       "mono": "Ed",
-      "baseNet": 4800,
+      "caen": "Q",
+      "occ": "spec",
+      "alias": [
+        "scoala",
+        "liceu",
+        "invatamant",
+        "dascal"
+      ],
+      "photo": "job-profesor"
+    },
+    {
+      "id": "educatoare",
+      "name": "Educatoare",
+      "category": "Educație",
+      "mono": "Ed",
+      "caen": "Q",
+      "occ": "spec",
+      "alias": [
+        "gradinita",
+        "crese"
+      ],
+      "photo": "job-profesor"
+    },
+    {
+      "id": "invatator",
+      "name": "Învățător",
+      "category": "Educație",
+      "mono": "Ed",
+      "caen": "Q",
+      "occ": "spec",
+      "alias": [
+        "scoala primara",
+        "clasele primare"
+      ],
+      "photo": "job-profesor"
+    },
+    {
+      "id": "instructor-auto",
+      "name": "Instructor auto",
+      "category": "Educație",
+      "mono": "Ed",
+      "caen": "Q",
+      "occ": "teh",
+      "alias": [
+        "scoala de soferi",
+        "categoria b"
+      ],
       "photo": "job-profesor"
     },
     {
@@ -73,7 +621,82 @@
       "name": "Operator producție",
       "category": "Industrie",
       "mono": "In",
-      "baseNet": 3700,
+      "caen": "C",
+      "occ": "oper",
+      "alias": [
+        "fabrica",
+        "linie",
+        "productie",
+        "uzina"
+      ],
+      "photo": "job-operator-productie"
+    },
+    {
+      "id": "sudor",
+      "name": "Sudor",
+      "category": "Industrie",
+      "mono": "In",
+      "caen": "25",
+      "occ": "calif",
+      "alias": [
+        "sudura",
+        "metal"
+      ],
+      "photo": "job-operator-productie"
+    },
+    {
+      "id": "lacatus-mecanic",
+      "name": "Lăcătuș mecanic",
+      "category": "Industrie",
+      "mono": "In",
+      "caen": "25",
+      "occ": "calif",
+      "alias": [
+        "mecanic",
+        "intretinere"
+      ],
+      "photo": "job-operator-productie"
+    },
+    {
+      "id": "strungar",
+      "name": "Strungar",
+      "category": "Industrie",
+      "mono": "In",
+      "caen": "25",
+      "occ": "calif",
+      "alias": [
+        "strung",
+        "prelucrare",
+        "cnc"
+      ],
+      "photo": "job-operator-productie"
+    },
+    {
+      "id": "croitor",
+      "name": "Croitor",
+      "category": "Industrie",
+      "mono": "In",
+      "caen": "14",
+      "occ": "calif",
+      "alias": [
+        "confectii",
+        "textile",
+        "masina de cusut"
+      ],
+      "photo": "job-operator-productie"
+    },
+    {
+      "id": "inginer-productie",
+      "name": "Inginer de producție",
+      "category": "Industrie",
+      "mono": "In",
+      "caen": "C",
+      "occ": "spec",
+      "alias": [
+        "inginer",
+        "proces",
+        "calitate"
+      ],
       "photo": "job-operator-productie"
     },
     {
@@ -81,7 +704,55 @@
       "name": "Curier",
       "category": "Logistică",
       "mono": "Lo",
-      "baseNet": 3600,
+      "caen": "53",
+      "occ": "oper",
+      "alias": [
+        "livrare",
+        "colete",
+        "sameday",
+        "glovo"
+      ],
+      "photo": "job-curier"
+    },
+    {
+      "id": "gestionar-depozit",
+      "name": "Gestionar de depozit",
+      "category": "Logistică",
+      "mono": "Lo",
+      "caen": "52",
+      "occ": "func",
+      "alias": [
+        "depozit",
+        "stocuri",
+        "gestiune"
+      ],
+      "photo": "job-curier"
+    },
+    {
+      "id": "stivuitorist",
+      "name": "Stivuitorist",
+      "category": "Logistică",
+      "mono": "Lo",
+      "caen": "52",
+      "occ": "oper",
+      "alias": [
+        "motostivuitor",
+        "depozit"
+      ],
+      "photo": "job-curier"
+    },
+    {
+      "id": "manipulant-marfa",
+      "name": "Manipulant marfă",
+      "category": "Logistică",
+      "mono": "Lo",
+      "caen": "52",
+      "occ": "elem",
+      "alias": [
+        "depozit",
+        "incarcare",
+        "descarcare"
+      ],
       "photo": "job-curier"
     },
     {
@@ -89,7 +760,42 @@
       "name": "Electrician",
       "category": "Instalații",
       "mono": "El",
-      "baseNet": 4600,
+      "caen": "43",
+      "occ": "calif",
+      "alias": [
+        "electrice",
+        "tablou",
+        "instalatii"
+      ],
+      "photo": "job-electrician"
+    },
+    {
+      "id": "instalator",
+      "name": "Instalator",
+      "category": "Instalații",
+      "mono": "El",
+      "caen": "43",
+      "occ": "calif",
+      "alias": [
+        "sanitare",
+        "termice",
+        "apa",
+        "gaz"
+      ],
+      "photo": "job-electrician"
+    },
+    {
+      "id": "tehnician-climatizare",
+      "name": "Tehnician climatizare",
+      "category": "Instalații",
+      "mono": "El",
+      "caen": "43",
+      "occ": "calif",
+      "alias": [
+        "hvac",
+        "aer conditionat",
+        "ventilatie"
+      ],
       "photo": "job-electrician"
     },
     {
@@ -97,42 +803,69 @@
       "name": "Frizer / stilist",
       "category": "Servicii",
       "mono": "Se",
-      "baseNet": 3400,
+      "caen": "96",
+      "occ": "serv",
+      "alias": [
+        "coafor",
+        "salon",
+        "tuns"
+      ],
       "photo": "job-frizer-stilist"
-    }
-  ],
-  "experience": [
-    {
-      "id": "exp-0",
-      "label": "Sub 1 an",
-      "sub": "abia am intrat",
-      "factor": 0.85,
-      "caption": "prima zi",
-      "photo": "exp-0"
     },
     {
-      "id": "exp-1",
-      "label": "1-3 ani",
-      "sub": "m-am prins cum merge",
-      "factor": 1,
-      "caption": "rutină",
-      "photo": "exp-1"
+      "id": "cosmetician",
+      "name": "Cosmetician",
+      "category": "Servicii",
+      "mono": "Se",
+      "caen": "96",
+      "occ": "serv",
+      "alias": [
+        "salon",
+        "manichiura",
+        "infrumusetare"
+      ],
+      "photo": "job-frizer-stilist"
     },
     {
-      "id": "exp-2",
-      "label": "3-7 ani",
-      "sub": "știu meserie",
-      "factor": 1.18,
-      "caption": "meserie",
-      "photo": "exp-2"
+      "id": "agent-paza",
+      "name": "Agent de pază",
+      "category": "Servicii",
+      "mono": "Se",
+      "caen": "80",
+      "occ": "serv",
+      "alias": [
+        "paza",
+        "securitate",
+        "bodyguard"
+      ],
+      "photo": "job-frizer-stilist"
     },
     {
-      "id": "exp-3",
-      "label": "Peste 7 ani",
-      "sub": "eu îi învăț pe alții",
-      "factor": 1.35,
-      "caption": "mentor",
-      "photo": "exp-3"
+      "id": "personal-curatenie",
+      "name": "Personal de curățenie",
+      "category": "Servicii",
+      "mono": "Se",
+      "caen": "81",
+      "occ": "elem",
+      "alias": [
+        "menajera",
+        "curatenie",
+        "femeie de serviciu"
+      ],
+      "photo": "job-frizer-stilist"
+    },
+    {
+      "id": "asistent-social",
+      "name": "Asistent social",
+      "category": "Servicii",
+      "mono": "Se",
+      "caen": "88",
+      "occ": "spec",
+      "alias": [
+        "social",
+        "protectie sociala"
+      ],
+      "photo": "job-frizer-stilist"
     }
   ],
   "bonusTemplates": [
@@ -1365,6 +2098,15 @@
       "photo": ""
     },
     {
+      "id": "calculator-inflatie",
+      "title": "Inflația și salariul tău",
+      "subtitle": "cât valora, cât valorează",
+      "caption": "bancnote vechi pe o masă",
+      "target": "inflatie",
+      "enabled": true,
+      "photo": ""
+    },
+    {
       "id": "somatie-de-plata",
       "title": "Notificare de plată",
       "subtitle": "cererea scrisă pentru banii neplătiți",
@@ -1389,8 +2131,44 @@
       "impozit": 0.1,
       "cam": 0.0225
     },
-    "cpiBasis": "",
-    "cpi": {},
+    "cpiBasis": "Indicele prețurilor de consum, INS, decembrie față de decembrie",
+    "cpi": {
+      "1991": 322.8,
+      "1992": 299.2,
+      "1993": 395.5,
+      "1994": 161.7,
+      "1995": 127.8,
+      "1996": 156.9,
+      "1997": 251.4,
+      "1998": 140.6,
+      "1999": 154.8,
+      "2000": 140.7,
+      "2001": 130.3,
+      "2002": 117.8,
+      "2003": 114.1,
+      "2004": 109.3,
+      "2005": 108.6,
+      "2006": 104.87,
+      "2007": 106.57,
+      "2008": 106.3,
+      "2009": 104.74,
+      "2010": 107.96,
+      "2011": 103.14,
+      "2012": 104.95,
+      "2013": 101.55,
+      "2014": 100.83,
+      "2015": 99.07,
+      "2016": 99.46,
+      "2017": 103.32,
+      "2018": 103.27,
+      "2019": 104.04,
+      "2020": 102.06,
+      "2021": 108.19,
+      "2022": 116.37,
+      "2023": 106.61,
+      "2024": 105.14,
+      "2025": 109.69
+    },
     "deducere": [
       {
         "grossFrom": 0,
@@ -1845,7 +2623,9 @@
       }
     ],
     "salariuMinim": 4325,
-    "deducereBasis": "Deducerea de bază, art. 77 Codul fiscal, la salariul minim stabilit prin HG 146/2026."
+    "deducereBasis": "Deducerea de bază, art. 77 Codul fiscal, la salariul minim stabilit prin HG 146/2026.",
+    "cpiSource": "IPC102B",
+    "cpiUpdated": "10-09-2026"
   },
   "texts": {
     "independenta": "Aplicație independentă. Angajo nu reprezintă ITM, ANAF sau altă instituție publică și nu este afiliată acestora.",
@@ -1965,7 +2745,9 @@
       "basis": "art. 268 alin. (1) lit. c) Codul muncii",
       "certainty": "settled",
       "disputeNote": "",
-      "situationId": ""
+      "situationId": "",
+      "photo": "art-166",
+      "photoCaption": "un portofel deschis, cu monede vărsate pe masă"
     },
     {
       "id": "preaviz-demisie",
@@ -1989,7 +2771,9 @@
       "basis": "termen pus de tine",
       "certainty": "settled",
       "disputeNote": "",
-      "situationId": ""
+      "situationId": "",
+      "photo": "art-145",
+      "photoCaption": "o filă de calendar cu ziua și luna"
     }
   ],
   "sources": [
@@ -2007,6 +2791,1375 @@
       "label": "H.G. 146/2026, salariul de bază minim brut pe țară garantat în plată (M. Of. 196 din 13 martie 2026)",
       "url": "https://legislatie.just.ro/Public/DetaliiDocument/308231",
       "retrieved": "2026-09-09"
+    },
+    {
+      "label": "Institutul Național de Statistică, TEMPO-Online - câștigul salarial mediu net pe activități (FOM106G) și pe grupe de ocupații (FOM121A)",
+      "url": "https://insse.ro/cms/ro/content/castiguri-salariale-din-1991-serie-lunara",
+      "retrieved": "2026-09-15"
+    },
+    {
+      "label": "Institutul Național de Statistică, TEMPO-Online - indicii prețurilor de consum (IPC102B)",
+      "url": "https://insse.ro/cms/ro/content/ipc-serii-de-date",
+      "retrieved": "2026-09-15"
+    },
+    {
+      "label": "Eurostat, Ancheta structurii câștigurilor salariale 2022 - repartiția câștigurilor în România",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/earn_ses_monthly/default/table",
+      "retrieved": "2026-09-15"
     }
-  ]
+  ],
+  "market": {
+    "shape": {
+      "basis": "Ancheta structurii câștigurilor salariale 2022, Eurostat, România",
+      "source": "earn_ses_monthly",
+      "retrieved": "2026-09-15",
+      "groups": {
+        "OC1-5": {
+          "meanOverMedian": 1.273,
+          "d1": 0.47,
+          "d9": 2.346
+        },
+        "OC6-8": {
+          "meanOverMedian": 1.137,
+          "d1": 0.667,
+          "d9": 1.795
+        },
+        "OC7-9": {
+          "meanOverMedian": 1.165,
+          "d1": 0.707,
+          "d9": 1.819
+        }
+      },
+      "of": {
+        "spec": "OC1-5",
+        "teh": "OC1-5",
+        "func": "OC1-5",
+        "serv": "OC1-5",
+        "calif": "OC6-8",
+        "oper": "OC6-8",
+        "agri": "OC6-8",
+        "elem": "OC7-9"
+      }
+    },
+    "experienceCurve": [
+      {
+        "months": 0,
+        "percentile": 10
+      },
+      {
+        "months": 12,
+        "percentile": 20
+      },
+      {
+        "months": 24,
+        "percentile": 28
+      },
+      {
+        "months": 36,
+        "percentile": 35
+      },
+      {
+        "months": 60,
+        "percentile": 45
+      },
+      {
+        "months": 84,
+        "percentile": 52
+      },
+      {
+        "months": 120,
+        "percentile": 60
+      },
+      {
+        "months": 180,
+        "percentile": 68
+      },
+      {
+        "months": 240,
+        "percentile": 73
+      },
+      {
+        "months": 360,
+        "percentile": 78
+      }
+    ],
+    "experienceCurveNote": "Estimare. Nicio sursă publică din România nu dă salariul pe ani de vechime.",
+    "basis": "Câștigul salarial mediu net, INS, iulie 2026",
+    "basisDate": "Luna iulie 2026",
+    "sourceTable": "FOM106G",
+    "sourceUpdated": "11-09-2026",
+    "occupationBasis": "Raporturi pe grupe de ocupații în interiorul ramurii, INS, ancheta din octombrie 2024",
+    "occupationTable": "FOM121A",
+    "nationalNet": 5820,
+    "branches": {
+      "01": {
+        "net": 4591,
+        "occ": {
+          "spec": 1.324,
+          "teh": 1.062,
+          "func": 0.977,
+          "serv": 0.83,
+          "agri": 0.879,
+          "calif": 0.993,
+          "oper": 0.98,
+          "elem": 0.805
+        }
+      },
+      "02": {
+        "net": 5241,
+        "occ": {
+          "spec": 1.241,
+          "teh": 1.191,
+          "func": 0.839,
+          "serv": 0.826,
+          "agri": 0.813,
+          "calif": 0.674,
+          "oper": 0.775,
+          "elem": 0.639
+        }
+      },
+      "03": {
+        "net": 3023,
+        "occ": {
+          "spec": 1.241,
+          "teh": 1.191,
+          "func": 0.839,
+          "serv": 0.826,
+          "agri": 0.813,
+          "calif": 0.674,
+          "oper": 0.775,
+          "elem": 0.639
+        }
+      },
+      "05": {
+        "net": 7285,
+        "occ": {
+          "spec": 1.127,
+          "teh": 1.058,
+          "func": 0.959,
+          "serv": 0.962,
+          "calif": 0.987,
+          "oper": 0.977,
+          "elem": 0.669
+        }
+      },
+      "05-39": {
+        "net": 5700,
+        "occ": {
+          "spec": 1.421,
+          "teh": 1.019,
+          "func": 0.724,
+          "serv": 0.647,
+          "calif": 0.864,
+          "oper": 0.876,
+          "elem": 0.477
+        }
+      },
+      "06": {
+        "net": 13140,
+        "occ": {
+          "spec": 1.179,
+          "teh": 0.94,
+          "func": 0.738,
+          "serv": 0.647,
+          "calif": 0.742,
+          "oper": 0.785,
+          "elem": 0.476
+        }
+      },
+      "07": {
+        "net": 6409,
+        "occ": {
+          "spec": 1.274,
+          "teh": 0.927,
+          "func": 0.752,
+          "serv": 0.79,
+          "calif": 0.937,
+          "oper": 0.876,
+          "elem": 0.688
+        }
+      },
+      "08": {
+        "net": 4689,
+        "occ": {
+          "spec": 1.368,
+          "teh": 1.047,
+          "func": 0.877,
+          "serv": 0.887,
+          "calif": 0.956,
+          "oper": 0.964,
+          "elem": 0.786
+        }
+      },
+      "09": {
+        "net": 9395,
+        "occ": {
+          "spec": 1.304,
+          "teh": 0.944,
+          "func": 0.698,
+          "serv": 0.598,
+          "calif": 0.796,
+          "oper": 0.887,
+          "elem": 0.513
+        }
+      },
+      "10": {
+        "net": 4425,
+        "occ": {
+          "spec": 1.548,
+          "teh": 1.18,
+          "func": 0.996,
+          "serv": 0.743,
+          "agri": 0.901,
+          "calif": 0.868,
+          "oper": 0.988,
+          "elem": 0.817
+        }
+      },
+      "11": {
+        "net": 6147,
+        "occ": {
+          "spec": 1.316,
+          "teh": 1.027,
+          "func": 0.764,
+          "serv": 0.621,
+          "agri": 0.517,
+          "calif": 0.839,
+          "oper": 0.725,
+          "elem": 0.598
+        }
+      },
+      "12": {
+        "net": 9950,
+        "occ": {
+          "spec": 1.246,
+          "teh": 1.057,
+          "func": 0.864,
+          "serv": 0.503,
+          "calif": 0.938,
+          "oper": 0.77,
+          "elem": 0.541
+        }
+      },
+      "13": {
+        "net": 4540,
+        "occ": {
+          "spec": 1.449,
+          "teh": 1.18,
+          "func": 1.029,
+          "serv": 0.805,
+          "calif": 0.969,
+          "oper": 0.899,
+          "elem": 0.85
+        }
+      },
+      "14": {
+        "net": 3618,
+        "occ": {
+          "spec": 1.477,
+          "teh": 1.262,
+          "func": 1.103,
+          "serv": 0.996,
+          "calif": 0.914,
+          "oper": 0.94,
+          "elem": 0.914
+        }
+      },
+      "15": {
+        "net": 4129,
+        "occ": {
+          "spec": 1.697,
+          "teh": 1.378,
+          "func": 1.154,
+          "serv": 0.867,
+          "calif": 0.963,
+          "oper": 0.867,
+          "elem": 0.888
+        }
+      },
+      "16": {
+        "net": 3936,
+        "occ": {
+          "spec": 1.188,
+          "teh": 1.185,
+          "func": 1.018,
+          "serv": 0.827,
+          "agri": 0.702,
+          "calif": 1.023,
+          "oper": 0.931,
+          "elem": 0.83
+        }
+      },
+      "17": {
+        "net": 5338,
+        "occ": {
+          "spec": 1.378,
+          "teh": 1.11,
+          "func": 0.891,
+          "serv": 0.729,
+          "calif": 0.951,
+          "oper": 0.915,
+          "elem": 0.692
+        }
+      },
+      "18": {
+        "net": 4886,
+        "occ": {
+          "spec": 1.203,
+          "teh": 0.975,
+          "func": 0.875,
+          "serv": 0.725,
+          "calif": 0.899,
+          "oper": 0.87,
+          "elem": 0.776
+        }
+      },
+      "19": {
+        "net": 11984,
+        "occ": {
+          "spec": 1.023,
+          "teh": 0.999,
+          "func": 0.731,
+          "calif": 0.966,
+          "oper": 0.916,
+          "elem": 0.49
+        }
+      },
+      "20": {
+        "net": 5562,
+        "occ": {
+          "spec": 1.243,
+          "teh": 1.03,
+          "func": 0.816,
+          "serv": 0.697,
+          "agri": 0.46,
+          "calif": 0.841,
+          "oper": 0.871,
+          "elem": 0.621
+        }
+      },
+      "21": {
+        "net": 6868,
+        "occ": {
+          "spec": 1.099,
+          "teh": 0.918,
+          "func": 0.727,
+          "serv": 0.594,
+          "calif": 0.825,
+          "oper": 0.767,
+          "elem": 0.551
+        }
+      },
+      "22": {
+        "net": 5657,
+        "occ": {
+          "spec": 1.473,
+          "teh": 1.091,
+          "func": 0.889,
+          "serv": 0.708,
+          "calif": 0.91,
+          "oper": 0.9,
+          "elem": 0.712
+        }
+      },
+      "23": {
+        "net": 5780,
+        "occ": {
+          "spec": 1.335,
+          "teh": 1.094,
+          "func": 0.877,
+          "serv": 0.684,
+          "calif": 0.84,
+          "oper": 0.92,
+          "elem": 0.707
+        }
+      },
+      "24": {
+        "net": 6527,
+        "occ": {
+          "spec": 1.229,
+          "teh": 1.035,
+          "func": 0.837,
+          "serv": 0.809,
+          "calif": 0.862,
+          "oper": 0.904,
+          "elem": 0.714
+        }
+      },
+      "25": {
+        "net": 5515,
+        "occ": {
+          "spec": 1.296,
+          "teh": 1.054,
+          "func": 0.9,
+          "serv": 0.781,
+          "calif": 0.921,
+          "oper": 0.955,
+          "elem": 0.785
+        }
+      },
+      "26": {
+        "net": 6778,
+        "occ": {
+          "spec": 1.522,
+          "teh": 0.927,
+          "func": 0.766,
+          "serv": 0.656,
+          "calif": 0.646,
+          "oper": 0.616,
+          "elem": 0.52
+        }
+      },
+      "27": {
+        "net": 5612,
+        "occ": {
+          "spec": 1.538,
+          "teh": 1.103,
+          "func": 0.935,
+          "serv": 0.871,
+          "calif": 0.891,
+          "oper": 0.799,
+          "elem": 0.708
+        }
+      },
+      "28": {
+        "net": 6441,
+        "occ": {
+          "spec": 1.317,
+          "teh": 1.009,
+          "func": 0.793,
+          "serv": 0.688,
+          "calif": 0.857,
+          "oper": 0.817,
+          "elem": 0.629
+        }
+      },
+      "29": {
+        "net": 7326,
+        "occ": {
+          "spec": 1.561,
+          "teh": 0.965,
+          "func": 0.85,
+          "serv": 0.846,
+          "calif": 0.804,
+          "oper": 0.778,
+          "elem": 0.66
+        }
+      },
+      "30": {
+        "net": 7350,
+        "occ": {
+          "spec": 1.243,
+          "teh": 1.108,
+          "func": 0.834,
+          "serv": 0.766,
+          "calif": 0.909,
+          "oper": 0.798,
+          "elem": 0.663
+        }
+      },
+      "31": {
+        "net": 3862,
+        "occ": {
+          "spec": 1.262,
+          "teh": 1.127,
+          "func": 1.001,
+          "serv": 0.846,
+          "agri": 0.907,
+          "calif": 0.915,
+          "oper": 0.964,
+          "elem": 0.93
+        }
+      },
+      "32": {
+        "net": 4482,
+        "occ": {
+          "spec": 1.494,
+          "teh": 0.883,
+          "func": 0.937,
+          "serv": 0.817,
+          "agri": 0.673,
+          "calif": 1.004,
+          "oper": 0.995,
+          "elem": 0.809
+        }
+      },
+      "33": {
+        "net": 6007,
+        "occ": {
+          "spec": 1.309,
+          "teh": 1.15,
+          "func": 0.692,
+          "serv": 0.626,
+          "calif": 0.887,
+          "oper": 0.829,
+          "elem": 0.715
+        }
+      },
+      "36": {
+        "net": 5251,
+        "occ": {
+          "spec": 1.222,
+          "teh": 0.9,
+          "func": 0.898,
+          "serv": 0.764,
+          "agri": 0.65,
+          "calif": 0.883,
+          "oper": 0.924,
+          "elem": 0.709
+        }
+      },
+      "37": {
+        "net": 5364,
+        "occ": {
+          "spec": 1.486,
+          "teh": 1.001,
+          "func": 0.929,
+          "serv": 0.718,
+          "calif": 0.941,
+          "oper": 0.881,
+          "elem": 0.785
+        }
+      },
+      "38": {
+        "net": 4505,
+        "occ": {
+          "spec": 1.445,
+          "teh": 1.078,
+          "func": 0.979,
+          "serv": 0.813,
+          "agri": 0.907,
+          "calif": 1.018,
+          "oper": 1.095,
+          "elem": 0.787
+        }
+      },
+      "39": {
+        "net": 4547,
+        "occ": {
+          "spec": 1.445,
+          "teh": 1.078,
+          "func": 0.979,
+          "serv": 0.813,
+          "agri": 0.907,
+          "calif": 1.018,
+          "oper": 1.095,
+          "elem": 0.787
+        }
+      },
+      "41": {
+        "net": 4728,
+        "occ": {
+          "spec": 1.393,
+          "teh": 1.045,
+          "func": 0.896,
+          "serv": 0.757,
+          "agri": 0.72,
+          "calif": 0.923,
+          "oper": 1.058,
+          "elem": 0.812
+        }
+      },
+      "42": {
+        "net": 6099,
+        "occ": {
+          "spec": 1.393,
+          "teh": 1.045,
+          "func": 0.896,
+          "serv": 0.757,
+          "agri": 0.72,
+          "calif": 0.923,
+          "oper": 1.058,
+          "elem": 0.812
+        }
+      },
+      "43": {
+        "net": 5345,
+        "occ": {
+          "spec": 1.393,
+          "teh": 1.045,
+          "func": 0.896,
+          "serv": 0.757,
+          "agri": 0.72,
+          "calif": 0.923,
+          "oper": 1.058,
+          "elem": 0.812
+        }
+      },
+      "46": {
+        "net": 6199,
+        "occ": {
+          "spec": 1.509,
+          "teh": 1.096,
+          "func": 0.902,
+          "serv": 0.713,
+          "agri": 0.588,
+          "calif": 0.802,
+          "oper": 0.846,
+          "elem": 0.714
+        }
+      },
+      "47": {
+        "net": 4688,
+        "occ": {
+          "spec": 1.509,
+          "teh": 1.096,
+          "func": 0.902,
+          "serv": 0.713,
+          "agri": 0.588,
+          "calif": 0.802,
+          "oper": 0.846,
+          "elem": 0.714
+        }
+      },
+      "49": {
+        "net": 5113,
+        "occ": {
+          "spec": 1.289,
+          "teh": 0.978,
+          "func": 0.998,
+          "serv": 0.973,
+          "agri": 0.511,
+          "calif": 1.129,
+          "oper": 0.986,
+          "elem": 0.671
+        }
+      },
+      "50": {
+        "net": 5650,
+        "occ": {
+          "spec": 1.032,
+          "teh": 1.38,
+          "func": 0.829,
+          "serv": 0.615,
+          "calif": 0.911,
+          "oper": 0.794,
+          "elem": 0.572
+        }
+      },
+      "51": {
+        "net": 10819,
+        "occ": {
+          "spec": 0.72,
+          "teh": 1.856,
+          "func": 0.522,
+          "serv": 0.555,
+          "calif": 0.744,
+          "oper": 0.476,
+          "elem": 0.377
+        }
+      },
+      "52": {
+        "net": 7717,
+        "occ": {
+          "spec": 1.346,
+          "teh": 1.127,
+          "func": 0.959,
+          "serv": 0.658,
+          "agri": 0.786,
+          "calif": 0.891,
+          "oper": 0.853,
+          "elem": 0.611
+        }
+      },
+      "53": {
+        "net": 4181,
+        "occ": {
+          "spec": 1.709,
+          "teh": 1.494,
+          "func": 0.911,
+          "serv": 0.861,
+          "calif": 0.918,
+          "oper": 0.912,
+          "elem": 0.852
+        }
+      },
+      "55": {
+        "net": 3875,
+        "occ": {
+          "spec": 1.24,
+          "teh": 1.275,
+          "func": 1.014,
+          "serv": 0.924,
+          "agri": 0.975,
+          "calif": 1.041,
+          "oper": 0.926,
+          "elem": 0.9
+        }
+      },
+      "56": {
+        "net": 3461,
+        "occ": {
+          "spec": 1.24,
+          "teh": 1.275,
+          "func": 1.014,
+          "serv": 0.924,
+          "agri": 0.975,
+          "calif": 1.041,
+          "oper": 0.926,
+          "elem": 0.9
+        }
+      },
+      "58": {
+        "net": 10757,
+        "occ": {
+          "spec": 1.143,
+          "teh": 0.691,
+          "func": 0.38,
+          "serv": 0.293,
+          "calif": 0.301,
+          "oper": 0.319,
+          "elem": 0.282
+        }
+      },
+      "59": {
+        "net": 6599,
+        "occ": {
+          "spec": 1.131,
+          "teh": 0.886,
+          "func": 0.673,
+          "serv": 0.695,
+          "calif": 0.744,
+          "oper": 0.767,
+          "elem": 0.578
+        }
+      },
+      "60": {
+        "net": 7145,
+        "occ": {
+          "spec": 1.131,
+          "teh": 0.886,
+          "func": 0.673,
+          "serv": 0.695,
+          "calif": 0.744,
+          "oper": 0.767,
+          "elem": 0.578
+        }
+      },
+      "61": {
+        "net": 6719,
+        "occ": {
+          "spec": 1.357,
+          "teh": 0.779,
+          "func": 0.645,
+          "serv": 0.623,
+          "calif": 0.616,
+          "oper": 0.516,
+          "elem": 0.524
+        }
+      },
+      "62": {
+        "net": 13464,
+        "occ": {
+          "spec": 1.119,
+          "teh": 0.714,
+          "func": 0.432,
+          "serv": 0.327,
+          "calif": 0.54,
+          "oper": 0.453,
+          "elem": 0.344
+        }
+      },
+      "63": {
+        "net": 8372,
+        "occ": {
+          "spec": 1.119,
+          "teh": 0.714,
+          "func": 0.432,
+          "serv": 0.327,
+          "calif": 0.54,
+          "oper": 0.453,
+          "elem": 0.344
+        }
+      },
+      "64": {
+        "net": 9913,
+        "occ": {
+          "spec": 0.957,
+          "teh": 0.714,
+          "func": 0.512,
+          "serv": 0.489,
+          "calif": 0.533,
+          "oper": 0.735,
+          "elem": 0.453
+        }
+      },
+      "65": {
+        "net": 9708,
+        "occ": {
+          "spec": 0.865,
+          "teh": 0.707,
+          "func": 0.588,
+          "serv": 0.453
+        }
+      },
+      "66": {
+        "net": 7455,
+        "occ": {
+          "spec": 1.321,
+          "teh": 0.839,
+          "func": 0.685,
+          "serv": 0.544,
+          "calif": 0.586,
+          "oper": 0.613,
+          "elem": 0.527
+        }
+      },
+      "69": {
+        "net": 8236,
+        "occ": {
+          "spec": 1.141,
+          "teh": 0.736,
+          "func": 0.634,
+          "serv": 0.57,
+          "agri": 0.636,
+          "calif": 0.755,
+          "oper": 0.68,
+          "elem": 0.565
+        }
+      },
+      "70": {
+        "net": 10680,
+        "occ": {
+          "spec": 1.141,
+          "teh": 0.736,
+          "func": 0.634,
+          "serv": 0.57,
+          "agri": 0.636,
+          "calif": 0.755,
+          "oper": 0.68,
+          "elem": 0.565
+        }
+      },
+      "71": {
+        "net": 8456,
+        "occ": {
+          "spec": 1.141,
+          "teh": 0.736,
+          "func": 0.634,
+          "serv": 0.57,
+          "agri": 0.636,
+          "calif": 0.755,
+          "oper": 0.68,
+          "elem": 0.565
+        }
+      },
+      "72": {
+        "net": 8138,
+        "occ": {
+          "spec": 1.118,
+          "teh": 0.686,
+          "func": 0.611,
+          "serv": 0.511,
+          "agri": 0.494,
+          "calif": 0.612,
+          "oper": 0.569,
+          "elem": 0.478
+        }
+      },
+      "73": {
+        "net": 7585,
+        "occ": {
+          "spec": 1.141,
+          "teh": 0.736,
+          "func": 0.634,
+          "serv": 0.57,
+          "agri": 0.636,
+          "calif": 0.755,
+          "oper": 0.68,
+          "elem": 0.565
+        }
+      },
+      "74": {
+        "net": 6718,
+        "occ": {
+          "spec": 1.141,
+          "teh": 0.736,
+          "func": 0.634,
+          "serv": 0.57,
+          "agri": 0.636,
+          "calif": 0.755,
+          "oper": 0.68,
+          "elem": 0.565
+        }
+      },
+      "75": {
+        "net": 6221,
+        "occ": {
+          "spec": 1.141,
+          "teh": 0.736,
+          "func": 0.634,
+          "serv": 0.57,
+          "agri": 0.636,
+          "calif": 0.755,
+          "oper": 0.68,
+          "elem": 0.565
+        }
+      },
+      "77": {
+        "net": 6341,
+        "occ": {
+          "spec": 1.765,
+          "teh": 1.157,
+          "func": 1.09,
+          "serv": 0.679,
+          "agri": 0.822,
+          "calif": 1.026,
+          "oper": 1.023,
+          "elem": 0.754
+        }
+      },
+      "78": {
+        "net": 5144,
+        "occ": {
+          "spec": 1.765,
+          "teh": 1.157,
+          "func": 1.09,
+          "serv": 0.679,
+          "agri": 0.822,
+          "calif": 1.026,
+          "oper": 1.023,
+          "elem": 0.754
+        }
+      },
+      "79": {
+        "net": 5047,
+        "occ": {
+          "spec": 1.765,
+          "teh": 1.157,
+          "func": 1.09,
+          "serv": 0.679,
+          "agri": 0.822,
+          "calif": 1.026,
+          "oper": 1.023,
+          "elem": 0.754
+        }
+      },
+      "80": {
+        "net": 3311,
+        "occ": {
+          "spec": 1.765,
+          "teh": 1.157,
+          "func": 1.09,
+          "serv": 0.679,
+          "agri": 0.822,
+          "calif": 1.026,
+          "oper": 1.023,
+          "elem": 0.754
+        }
+      },
+      "81": {
+        "net": 3618,
+        "occ": {
+          "spec": 1.765,
+          "teh": 1.157,
+          "func": 1.09,
+          "serv": 0.679,
+          "agri": 0.822,
+          "calif": 1.026,
+          "oper": 1.023,
+          "elem": 0.754
+        }
+      },
+      "82": {
+        "net": 7262,
+        "occ": {
+          "spec": 1.765,
+          "teh": 1.157,
+          "func": 1.09,
+          "serv": 0.679,
+          "agri": 0.822,
+          "calif": 1.026,
+          "oper": 1.023,
+          "elem": 0.754
+        }
+      },
+      "86": {
+        "net": 6566,
+        "occ": {
+          "spec": 1.203,
+          "teh": 0.923,
+          "func": 0.696,
+          "serv": 0.685,
+          "agri": 0.742,
+          "calif": 0.822,
+          "oper": 0.87,
+          "elem": 0.631
+        }
+      },
+      "87": {
+        "net": 4501,
+        "occ": {
+          "spec": 1.203,
+          "teh": 0.923,
+          "func": 0.696,
+          "serv": 0.685,
+          "agri": 0.742,
+          "calif": 0.822,
+          "oper": 0.87,
+          "elem": 0.631
+        }
+      },
+      "88": {
+        "net": 3098,
+        "occ": {
+          "spec": 1.203,
+          "teh": 0.923,
+          "func": 0.696,
+          "serv": 0.685,
+          "agri": 0.742,
+          "calif": 0.822,
+          "oper": 0.87,
+          "elem": 0.631
+        }
+      },
+      "90": {
+        "net": 5181,
+        "occ": {
+          "spec": 1.297,
+          "teh": 0.909,
+          "func": 0.8,
+          "serv": 0.797,
+          "agri": 0.643,
+          "calif": 0.85,
+          "oper": 0.837,
+          "elem": 0.729
+        }
+      },
+      "91": {
+        "net": 4293,
+        "occ": {
+          "spec": 1.297,
+          "teh": 0.909,
+          "func": 0.8,
+          "serv": 0.797,
+          "agri": 0.643,
+          "calif": 0.85,
+          "oper": 0.837,
+          "elem": 0.729
+        }
+      },
+      "92": {
+        "net": 4996,
+        "occ": {
+          "spec": 1.297,
+          "teh": 0.909,
+          "func": 0.8,
+          "serv": 0.797,
+          "agri": 0.643,
+          "calif": 0.85,
+          "oper": 0.837,
+          "elem": 0.729
+        }
+      },
+      "93": {
+        "net": 4195,
+        "occ": {
+          "spec": 1.297,
+          "teh": 0.909,
+          "func": 0.8,
+          "serv": 0.797,
+          "agri": 0.643,
+          "calif": 0.85,
+          "oper": 0.837,
+          "elem": 0.729
+        }
+      },
+      "94": {
+        "net": 5145,
+        "occ": {
+          "spec": 1.466,
+          "teh": 0.871,
+          "func": 0.949,
+          "serv": 0.665,
+          "agri": 0.696,
+          "calif": 0.825,
+          "oper": 0.805,
+          "elem": 0.717
+        }
+      },
+      "95": {
+        "net": 3946,
+        "occ": {
+          "spec": 1.466,
+          "teh": 0.871,
+          "func": 0.949,
+          "serv": 0.665,
+          "agri": 0.696,
+          "calif": 0.825,
+          "oper": 0.805,
+          "elem": 0.717
+        }
+      },
+      "96": {
+        "net": 2986,
+        "occ": {
+          "spec": 1.466,
+          "teh": 0.871,
+          "func": 0.949,
+          "serv": 0.665,
+          "agri": 0.696,
+          "calif": 0.825,
+          "oper": 0.805,
+          "elem": 0.717
+        }
+      },
+      "A": {
+        "net": 4690,
+        "occ": {
+          "spec": 1.322,
+          "teh": 1.256,
+          "func": 0.924,
+          "serv": 0.815,
+          "agri": 0.876,
+          "calif": 0.919,
+          "oper": 0.913,
+          "elem": 0.75
+        }
+      },
+      "B": {
+        "net": 8121,
+        "occ": {
+          "spec": 1.421,
+          "teh": 1.019,
+          "func": 0.724,
+          "serv": 0.647,
+          "calif": 0.864,
+          "oper": 0.876,
+          "elem": 0.477
+        }
+      },
+      "C": {
+        "net": 5506,
+        "occ": {
+          "spec": 1.594,
+          "teh": 1.097,
+          "func": 0.887,
+          "serv": 0.632,
+          "agri": 0.596,
+          "calif": 0.887,
+          "oper": 0.862,
+          "elem": 0.699
+        }
+      },
+      "D": {
+        "net": 9081,
+        "occ": {
+          "spec": 1.134,
+          "teh": 0.869,
+          "func": 0.71,
+          "serv": 0.613,
+          "agri": 0.579,
+          "calif": 0.865,
+          "oper": 0.718,
+          "elem": 0.496
+        }
+      },
+      "E": {
+        "net": 4871,
+        "occ": {
+          "spec": 1.344,
+          "teh": 0.987,
+          "func": 0.934,
+          "serv": 0.769,
+          "agri": 0.792,
+          "calif": 0.967,
+          "oper": 0.992,
+          "elem": 0.724
+        }
+      },
+      "F": {
+        "net": 5338,
+        "occ": {
+          "spec": 1.393,
+          "teh": 1.045,
+          "func": 0.896,
+          "serv": 0.757,
+          "agri": 0.72,
+          "calif": 0.923,
+          "oper": 1.058,
+          "elem": 0.812
+        }
+      },
+      "G": {
+        "net": 5331,
+        "occ": {
+          "spec": 1.509,
+          "teh": 1.096,
+          "func": 0.902,
+          "serv": 0.713,
+          "agri": 0.588,
+          "calif": 0.802,
+          "oper": 0.846,
+          "elem": 0.714
+        }
+      },
+      "H": {
+        "net": 5723,
+        "occ": {
+          "spec": 1.435,
+          "teh": 1.367,
+          "func": 0.912,
+          "serv": 0.902,
+          "agri": 0.721,
+          "calif": 1.097,
+          "oper": 0.935,
+          "elem": 0.675
+        }
+      },
+      "I": {
+        "net": 3634,
+        "occ": {
+          "spec": 1.24,
+          "teh": 1.275,
+          "func": 1.014,
+          "serv": 0.924,
+          "agri": 0.975,
+          "calif": 1.041,
+          "oper": 0.926,
+          "elem": 0.9
+        }
+      },
+      "J": {
+        "net": 9630,
+        "occ": {
+          "spec": 1.163,
+          "teh": 0.693,
+          "func": 0.456,
+          "serv": 0.414,
+          "calif": 0.488,
+          "oper": 0.447,
+          "elem": 0.36
+        }
+      },
+      "K": {
+        "net": 11643,
+        "occ": {
+          "spec": 1.163,
+          "teh": 0.693,
+          "func": 0.456,
+          "serv": 0.414,
+          "calif": 0.488,
+          "oper": 0.447,
+          "elem": 0.36
+        }
+      },
+      "L": {
+        "net": 9554,
+        "occ": {
+          "spec": 1.002,
+          "teh": 0.667,
+          "func": 0.52,
+          "serv": 0.464,
+          "calif": 0.526,
+          "oper": 0.685,
+          "elem": 0.433
+        }
+      },
+      "M": {
+        "net": 5297,
+        "occ": {
+          "spec": 1.242,
+          "teh": 0.958,
+          "func": 0.836,
+          "serv": 0.837,
+          "agri": 0.939,
+          "calif": 1.068,
+          "oper": 0.979,
+          "elem": 0.778
+        }
+      },
+      "N": {
+        "net": 8431,
+        "occ": {
+          "spec": 1.141,
+          "teh": 0.736,
+          "func": 0.634,
+          "serv": 0.57,
+          "agri": 0.636,
+          "calif": 0.755,
+          "oper": 0.68,
+          "elem": 0.565
+        }
+      },
+      "O": {
+        "net": 4781,
+        "occ": {
+          "spec": 1.765,
+          "teh": 1.157,
+          "func": 1.09,
+          "serv": 0.679,
+          "agri": 0.822,
+          "calif": 1.026,
+          "oper": 1.023,
+          "elem": 0.754
+        }
+      },
+      "P": {
+        "net": 6997,
+        "occ": {
+          "spec": 1.145,
+          "teh": 0.851,
+          "func": 0.73,
+          "serv": 0.517,
+          "agri": 0.622,
+          "calif": 0.619,
+          "oper": 0.616,
+          "elem": 0.521
+        }
+      },
+      "Q": {
+        "net": 5646,
+        "occ": {
+          "spec": 1.145,
+          "teh": 0.851,
+          "func": 0.73,
+          "serv": 0.517,
+          "agri": 0.622,
+          "calif": 0.619,
+          "oper": 0.616,
+          "elem": 0.521
+        }
+      },
+      "R": {
+        "net": 5485,
+        "occ": {
+          "spec": 1.203,
+          "teh": 0.923,
+          "func": 0.696,
+          "serv": 0.685,
+          "agri": 0.742,
+          "calif": 0.822,
+          "oper": 0.87,
+          "elem": 0.631
+        }
+      },
+      "S": {
+        "net": 4715,
+        "occ": {
+          "spec": 1.297,
+          "teh": 0.909,
+          "func": 0.8,
+          "serv": 0.797,
+          "agri": 0.643,
+          "calif": 0.85,
+          "oper": 0.837,
+          "elem": 0.729
+        }
+      },
+      "T": {
+        "net": 4037,
+        "occ": {
+          "spec": 1.466,
+          "teh": 0.871,
+          "func": 0.949,
+          "serv": 0.665,
+          "agri": 0.696,
+          "calif": 0.825,
+          "oper": 0.805,
+          "elem": 0.717
+        }
+      }
+    }
+  }
 }
