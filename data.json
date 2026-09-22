@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
-  "version": 19,
-  "updatedAt": "2026-09-16",
+  "version": 20,
+  "updatedAt": "2026-09-22",
   "verifiedAt": "2026-09-05",
   "jobs": [
     {
@@ -2781,26 +2781,31 @@
     {
       "label": "Codul muncii (Legea 53/2003, republicată), forma consolidată - Portal Legislativ, Ministerul Justiției",
       "url": "https://legislatie.just.ro/Public/DetaliiDocument/128647",
+      "mirror": "https://web.archive.org/web/20260701/https://legislatie.just.ro/Public/DetaliiDocument/128647",
       "retrieved": "2026-09-05"
     },
     {
       "label": "Codul fiscal (Legea 227/2015), forma consolidată - sursa cotelor de impozit și contribuții",
       "url": "https://legislatie.just.ro/Public/DetaliiDocument/171282",
+      "mirror": "https://web.archive.org/web/20260115/https://legislatie.just.ro/Public/DetaliiDocument/171282",
       "retrieved": "2026-09-09"
     },
     {
       "label": "H.G. 146/2026, salariul de bază minim brut pe țară garantat în plată (M. Of. 196 din 13 martie 2026)",
       "url": "https://legislatie.just.ro/Public/DetaliiDocument/308231",
+      "mirror": "https://web.archive.org/web/20260628/https://legislatie.just.ro/Public/DetaliiDocument/308231",
       "retrieved": "2026-09-09"
     },
     {
       "label": "Institutul Național de Statistică, TEMPO-Online - câștigul salarial mediu net pe activități (FOM106G) și pe grupe de ocupații (FOM121A)",
       "url": "https://insse.ro/cms/ro/content/castiguri-salariale-din-1991-serie-lunara",
+      "mirror": "https://web.archive.org/web/20250319/https://insse.ro/cms/ro/content/castiguri-salariale-din-1991-serie-lunara",
       "retrieved": "2026-09-15"
     },
     {
       "label": "Institutul Național de Statistică, TEMPO-Online - indicii prețurilor de consum (IPC102B)",
       "url": "https://insse.ro/cms/ro/content/ipc-serii-de-date",
+      "mirror": "https://web.archive.org/web/20250828/https://insse.ro/cms/ro/content/ipc-serii-de-date",
       "retrieved": "2026-09-15"
     },
     {
